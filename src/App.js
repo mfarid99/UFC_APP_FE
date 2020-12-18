@@ -28,10 +28,10 @@ function App() {
       <Header/>
       <main>
         <Switch>
-          <Route exact path = "/" render={(rp)=> <h1>Home</h1>}/>
+          <Route exact path = "/" render={(rp)=> gState.token ?<h1>Dashboard</h1> : <h1>Home</h1>}/>
           <Route path = "/signup" render={(rp)=> <Signup {...rp}/>}/>
           <Route path = "/login" render={(rp)=> <Login {...rp}/>}/>
-          <Route path = "/dashboard" render={(rp=> <h1>Dashboard</h1>)}/>
+          {/* <Route path = "/dashboard" render={(rp=> <h1>Dashboard</h1>)}/> */}
 
         </Switch>
       </main>
