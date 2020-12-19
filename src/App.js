@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import Header from "./components/Header";
 import Signup from "./pages/signup"
 import Login from "./pages/login"
+import Home from "./pages/home"
+import Dashboard from "./pages/dashboard"
+
 import {Route, Link, Switch} from "react-router-dom";
 import './App.css';
 
@@ -28,7 +31,7 @@ function App() {
       <Header/>
       <main>
         <Switch>
-          <Route exact path = "/" render={(rp)=> gState.token ?<h1>Dashboard</h1> : <h1>Home</h1>}/>
+          <Route exact path = "/" render={(rp)=> gState.token ?<Dashboard/> : <Home/>}/>
           <Route path = "/signup" render={(rp)=> <Signup {...rp}/>}/>
           <Route path = "/login" render={(rp)=> <Login {...rp}/>}/>
           {/* <Route path = "/dashboard" render={(rp=> <h1>Dashboard</h1>)}/> */}
