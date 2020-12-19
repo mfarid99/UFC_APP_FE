@@ -40,12 +40,3 @@ input[type="text"], input[type="password"], input[type="submit"], button {
   font-size: 28px;
 }
 
-ul {
-  list-style: none;
-  width: 50%;
-  margin: 10px auto;
-}
-
-li {
-  margin: 0;
-}
