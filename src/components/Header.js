@@ -1,7 +1,8 @@
 import React from "react"
 import {Link} from "react-router-dom"
-import {GlobalCtx} from "../App"
+import {Nav} from "./Nav"
 
+import {GlobalCtx} from "../App"
 const Header = (props) => {
 
     const {gState, setGState} = React.useContext(GlobalCtx);
@@ -15,8 +16,11 @@ const Header = (props) => {
 
     return (<nav>
         <Link to="/signup"> <h2> Signup </h2></Link> 
-        <Link to="/login"> <h2>Login</h2></Link>
+        <Link to="/login"> <h2>Login</h2></Link> 
+        {gState.token ? <Nav /> : null}
         {gState.token ? logout : null}
+
+       
 
 
     </nav>

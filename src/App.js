@@ -5,6 +5,11 @@ import Signup from "./pages/signup"
 import Login from "./pages/login"
 import Home from "./pages/home"
 import Dashboard from "./pages/dashboard"
+import {Nav} from "./components/Nav"
+import Brawl from "./pages/brawl"
+
+
+
 
 import {Route, Link, Switch} from "react-router-dom";
 import './App.css';
@@ -28,17 +33,20 @@ function App() {
     <GlobalCtx.Provider value = {{gState, setGState}}>
     <div className="App">
       <Link to = "/" ><h1>MMA</h1></Link>
-      <Header/>
+      <Link to = "/" ><h1>FIFA</h1></Link>
+
+      <Header />
+
       <main>
         <Switch>
-          <Route exact path = "/" render={(rp)=> gState.token ?<Dashboard/> : <Home/>}/>
+          <Route exact path = "/" render={(rp)=> gState.token ?<Dashboard/>: <Home/>}/>
           <Route path = "/signup" render={(rp)=> <Signup {...rp}/>}/>
           <Route path = "/login" render={(rp)=> <Login {...rp}/>}/>
           {/* <Route path = "/dashboard" render={(rp=> <h1>Dashboard</h1>)}/> */}
-
         </Switch>
       </main>
-      
+      {gState.token ? <Route path = "/past" render={(rp)=> <Brawl {...rp}/>}/> : null}
+
     </div>
     </GlobalCtx.Provider>
 

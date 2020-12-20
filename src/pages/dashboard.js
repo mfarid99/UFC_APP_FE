@@ -1,6 +1,9 @@
 import { set } from "mongoose"
 import React from "react"
 import {GlobalCtx} from "../App"
+import {Carousel, Jumbotron, Button} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Dashboard = (props) => {
 
@@ -84,15 +87,53 @@ const Dashboard = (props) => {
     }
 
 
-    return ( 
+    return (<>
+
+         
+   <Carousel>
+  <Carousel.Item interval={1500}>
+    <img
+      className="d-block w-100"
+      src="https://m.hindustantimes.com/rf/image_size_444x250/HT/p2/2020/10/30/Pictures/ufc-254-preview-mixed-martial-arts_1de96cea-1abd-11eb-bfd3-008a2bae3f6c.jpg"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={500}>
+    <img
+      className="d-block w-100"
+      src="https://sportshub.cbsistatic.com/i/r/2018/10/01/ea7fe27f-3888-4814-80b1-82d1c4a6803d/thumbnail/1200x675/8d379dae8f7d540f422e6e7cc14821f0/khabib-nurmagomedov.jpg"
+      alt="Second slide"
+    />
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="https://cdn.newsday.com/polopoly_fs/1.39685824.1601404661!/httpImage/image.jpg_gen/derivatives/landscape_1280/image.jpg"
+      alt="Third slide"
+    />
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
         <div>
             <h1>Dashboard</h1> 
             <h2>New Note</h2>
-            <input type = "text" name="note" ref={input}/>
+            <textarea maxlength = "90" cols="60" rows="10" type = "text" name="note" ref={input}/>
             <button onClick={handleClick}>Create Note</button>
             <h2>Update Note</h2>
-            <input type = "text" name="note" ref={update}/>
-            <button onClick={handleUpdate}>Update</button>
+            <textarea maxlength = "90" cols="60" rows="10" type = "text" name="note" ref={update}/> 
+
+            <button onClick={handleUpdate}>Update</button> 
            
             <h2>Notes</h2>
             <ul>
@@ -105,7 +146,7 @@ const Dashboard = (props) => {
                 </li> )) : null}
             </ul>
         </div>
-    )
+    </>)
 }
 
 export default Dashboard
