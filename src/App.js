@@ -33,7 +33,6 @@ function App() {
     <GlobalCtx.Provider value = {{gState, setGState}}>
     <div className="App">
       <Link to = "/" ><h1>MMA</h1></Link>
-      <Link to = "/" ><h1>FIFA</h1></Link>
 
       <Header />
 
@@ -42,10 +41,12 @@ function App() {
           <Route exact path = "/" render={(rp)=> gState.token ?<Dashboard/>: <Home/>}/>
           <Route path = "/signup" render={(rp)=> <Signup {...rp}/>}/>
           <Route path = "/login" render={(rp)=> <Login {...rp}/>}/>
-          {/* <Route path = "/dashboard" render={(rp=> <h1>Dashboard</h1>)}/> */}
+          <Route path = "/dashboard" render={(rp=> <h1>Dashboard</h1>)}/>
         </Switch>
       </main>
-      {gState.token ? <Route path = "/past" render={(rp)=> <Brawl {...rp}/>}/> : null}
+      {/* {gState.token ? <Route path = "/past" render={(rp)=> <Brawl {...rp}/>}/> : null} */}
+
+      <Route path = "/past" render={(rp)=> gState.token ? <Brawl/> : <Home/>}/> 
 
     </div>
     </GlobalCtx.Provider>

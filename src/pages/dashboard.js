@@ -94,7 +94,7 @@ const Dashboard = (props) => {
   <Carousel.Item interval={1500}>
     <img
       className="d-block w-100"
-      src="https://m.hindustantimes.com/rf/image_size_444x250/HT/p2/2020/10/30/Pictures/ufc-254-preview-mixed-martial-arts_1de96cea-1abd-11eb-bfd3-008a2bae3f6c.jpg"
+      src="https://imgix.ranker.com/user_node_img/50017/1000325053/original/paige-van-zant-all-people-photo-u10?fit=crop&fm=pjpg&q=60&w=375&dpr=1"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -105,7 +105,7 @@ const Dashboard = (props) => {
   <Carousel.Item interval={500}>
     <img
       className="d-block w-100"
-      src="https://sportshub.cbsistatic.com/i/r/2018/10/01/ea7fe27f-3888-4814-80b1-82d1c4a6803d/thumbnail/1200x675/8d379dae8f7d540f422e6e7cc14821f0/khabib-nurmagomedov.jpg"
+      src="https://madnessmedia.net/wp-content/uploads/2017/11/23596581_1482567695191952_3750961124766384128_n-800x800.jpg"
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -116,7 +116,7 @@ const Dashboard = (props) => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://cdn.newsday.com/polopoly_fs/1.39685824.1601404661!/httpImage/image.jpg_gen/derivatives/landscape_1280/image.jpg"
+      src="https://i.pinimg.com/originals/16/ea/24/16ea24c91973705465a7876bd068361d.jpg"
       alt="Third slide"
     />
     <Carousel.Caption>
