@@ -40,3 +40,13 @@ input[type="text"], input[type="password"], input[type="submit"], button {
   font-size: 28px;
 }
 
+.fights {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.vs {
+  font-size: 3em;
+  margin: 300px auto
+}

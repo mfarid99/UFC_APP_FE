@@ -7,6 +7,10 @@ import Home from "./pages/home"
 import Dashboard from "./pages/dashboard"
 import {Nav} from "./components/Nav"
 import Brawl from "./pages/brawl"
+import Bio from "./pages/bio"
+import Watch from "./pages/watch"
+
+
 
 
 
@@ -47,6 +51,8 @@ function App() {
       {/* {gState.token ? <Route path = "/past" render={(rp)=> <Brawl {...rp}/>}/> : null} */}
 
       <Route path = "/past" render={(rp)=> gState.token ? <Brawl/> : <Home/>}/> 
+      <Route path = "/bio" render={(rp)=> gState.token ? <Bio/> : <Home/>}/> 
+      <Route path = "/watch" render={(rp)=> gState.token ? <Watch/> : <Home/>}/> 
 
     </div>
     </GlobalCtx.Provider>

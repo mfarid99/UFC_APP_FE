@@ -9,6 +9,17 @@ export const Nav = (props) => {
             </div>
         </Link>
 
-        
+        <Link to = "/bio">
+            <div>
+                Bio Nav
+            </div>
+        </Link>
+
+        <Link to = "/watch">
+            <div>
+                How To Watch
+            </div>
+        </Link>
+
     </nav>
 }

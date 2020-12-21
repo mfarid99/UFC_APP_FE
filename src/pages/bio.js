@@ -3,17 +3,19 @@ import {GlobalCtx} from "../App"
 import {Carousel, Jumbotron, Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Brawl = (props) => {
 
-    // const {brawl} = props
+const Bio = (props) => {
+
     
     return (<>
-    <h1>Brawl</h1>
-   <Carousel>
-  <Carousel.Item interval={1000}>
+
+    <h1>bio</h1>
+
+    <Carousel>
+  <Carousel.Item >
     <img
       className="d-block w-100"
-      src="https://milehighsports.com/wp-content/uploads/2020/01/USATSI_11394011-696x464.jpg"
+      src="https://imgix.ranker.com/user_node_img/50017/1000325053/original/paige-van-zant-all-people-photo-u10?fit=crop&fm=pjpg&q=60&w=375&dpr=1"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -24,7 +26,7 @@ const Brawl = (props) => {
   <Carousel.Item interval={500}>
     <img
       className="d-block w-100"
-      src="https://www.telegraph.co.uk/content/dam/mma/2017/08/17/TELEMMGLPICT000137551754_trans_NvBQzQNjv4BqplGOf-dgG3z4gg9owgQTXB3zF48bcOw5jNpxDOYJRn4.jpeg"
+      src="https://madnessmedia.net/wp-content/uploads/2017/11/23596581_1482567695191952_3750961124766384128_n-800x800.jpg"
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -35,7 +37,7 @@ const Brawl = (props) => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://cdn.vox-cdn.com/thumbor/4f5hVWMGw1lIPLIzi4w2zj7hY5M=/0x0:4646x3098/1200x800/filters:focal(1293x1080:2035x1822)/cdn.vox-cdn.com/uploads/chorus_image/image/67170655/1129476132.jpg.0.jpg"
+      src="https://i.pinimg.com/originals/16/ea/24/16ea24c91973705465a7876bd068361d.jpg"
       alt="Third slide"
     />
     <Carousel.Caption>
@@ -44,7 +46,9 @@ const Brawl = (props) => {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-   </> )
-}
 
-export default Brawl
+
+
+</>)
+}
+    export default Bio

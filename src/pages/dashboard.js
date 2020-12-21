@@ -1,7 +1,7 @@
 import { set } from "mongoose"
 import React from "react"
 import {GlobalCtx} from "../App"
-import {Carousel, Jumbotron, Button} from 'react-bootstrap'
+import {Carousel, Jumbotron, Button, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, ListGroupItem, ListGroup} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -88,7 +88,7 @@ const Dashboard = (props) => {
 
 
     return (<>
-
+<h1>Dashboard</h1>
          
    <Carousel>
   <Carousel.Item interval={1500}>
@@ -125,8 +125,241 @@ const Dashboard = (props) => {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-        <div>
-            <h1>Dashboard</h1> 
+
+<div className="fights">
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silva
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="/bio">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>     
+<h1 className="vs">VS</h1>
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silvas
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="#">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>    
+</div>
+<hr/>
+<div className="fights">
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silva
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="/bio">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>     
+<h1 className="vs">VS</h1>
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silvas
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="#">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>    
+</div>
+<hr/>
+
+<div className="fights">
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silva
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="/bio">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>     
+<h1 className="vs">VS</h1>
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silvas
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="#">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>    
+</div>
+<hr/>
+
+<div className="fights">
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silva
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="/bio">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>     
+<h1 className="vs">VS</h1>
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silvas
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="#">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>    
+</div>
+<hr/>
+
+<div className="fights">
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silva
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="/bio">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>     
+<h1 className="vs">VS</h1>
+<Card style={{ width: '50rem' }}>
+  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Body>
+    <Card.Title>Midli</Card.Title>
+    <Card.Text>
+      Anderson Silvas
+    </Card.Text>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Country: United States</ListGroupItem>
+  <ListGroupItem>Height: 5'11''</ListGroupItem>
+  <ListGroupItem>Weight: 175LB</ListGroupItem>
+    <ListGroupItem>Reach: 69''</ListGroupItem>
+
+  </ListGroup>
+  <Card.Body>
+    <Card.Link href="#">Card Link</Card.Link>
+    <Card.Link href="#">Another Link</Card.Link>
+  </Card.Body>
+</Card>    
+</div>
+   <div>
+             
             <h2>New Note</h2>
             <textarea maxlength = "90" cols="60" rows="10" type = "text" name="note" ref={input}/>
             <button onClick={handleClick}>Create Note</button>
