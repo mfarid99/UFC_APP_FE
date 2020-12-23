@@ -89,131 +89,150 @@ const Dashboard = (props) => {
 
     return (<>
 <h1>Dashboard</h1>
-         
+         <div className="caroudash"> 
    <Carousel>
+      
+       <Carousel.Item interval={3000}>
+    <img
+      className="d-block w-100"
+      src= "https://i.imgur.com/NnBFcof.jpg"
+      alt="UFC 299"
+    />
+    <Carousel.Caption>
+      
+    </Carousel.Caption>
+
+  </Carousel.Item>
   <Carousel.Item interval={1500}>
     <img
       className="d-block w-100"
-      src="https://imgix.ranker.com/user_node_img/50017/1000325053/original/paige-van-zant-all-people-photo-u10?fit=crop&fm=pjpg&q=60&w=375&dpr=1"
-      alt="First slide"
+      src="https://sportshub.cbsistatic.com/i/r/2019/09/06/5b3f6cf9-2a2d-4a9a-8b4e-3957cac770bc/thumbnail/1200x675/2260a19670823b964e07e06516120d2d/khabib-weighin.jpg"
+      alt="Khabib"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>The Champ </h3>
+      <p>Khabib "The Eagle" Nurmagomedov</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={500}>
+  <Carousel.Item interval={1500}>
     <img
       className="d-block w-100"
-      src="https://madnessmedia.net/wp-content/uploads/2017/11/23596581_1482567695191952_3750961124766384128_n-800x800.jpg"
-      alt="Second slide"
+      src="https://www.monsterenergy.com/media/uploads_image/2020/01/19/1600/800/571dadc12c3b94df40c354c6424528d3.jpg?mod=v1_f10d70348afc8e5bab81342e1c962db5"
+      alt="Third slide"
     />
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>The Challenger</h3>
+      <p>Conor "Notorious" McGregor</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://i.pinimg.com/originals/16/ea/24/16ea24c91973705465a7876bd068361d.jpg"
-      alt="Third slide"
+      src="https://www.sportsnet.ca/wp-content/uploads/2020/05/jon-jones-ufc-1040x572.jpg"
+      alt="Fourth slide"
     />
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Heavyweight Contender</h3>
+      <p>Jon "Bones" Jones</p>
     </Carousel.Caption>
   </Carousel.Item>
+
+  <Carousel.Item interval={1500}>
+    <img
+      className="d-block w-100"
+      src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200314224942/Francis-Ngannou.jpg"
+      alt="Fifth slide"
+    />
+    <Carousel.Caption>
+      <h3>Heavyweight Contender</h3>
+      <p>Francis Ngannou</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+
+  
 </Carousel>
+</div>
 
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://cdn.readeverything.co/wp-content/uploads/sites/56/2020/04/228-1.jpg" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
-    <Card.Text>
-      Anderson Silva
+    <Card.Title> Max Hollaway</Card.Title>
+    <Card.Text> Lightweight
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Record: 21-6-0</ListGroupItem>
   <ListGroupItem>Country: United States</ListGroupItem>
   <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
+  <ListGroupItem>Weight: 145LB</ListGroupItem>
     <ListGroupItem>Reach: 69''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
     <Card.Link href="/bio">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">VS</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://sportsmanila.net/images/ufc/2018/feb/Brian-Ortega.jpg" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
-    <Card.Text>
-      Anderson Silvas
+    <Card.Title>  Brian Ortega</Card.Title>
+    <Card.Text> Lightweight
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Record: 15-1-0</ListGroupItem>
   <ListGroupItem>Country: United States</ListGroupItem>
-  <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
+  <ListGroupItem>Height: 5'8''</ListGroupItem>
+  <ListGroupItem>Weight: 145LB</ListGroupItem>
     <ListGroupItem>Reach: 69''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
     <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
   </Card.Body>
 </Card>    
 </div>
 <hr/>
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://i.pinimg.com/originals/4c/82/66/4c826618e3e62fe5e40f8e330ce09c33.jpg" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
-    <Card.Text>
-      Anderson Silva
-    </Card.Text>
+    <Card.Title>  Amanda Nunes </Card.Title>
+    <Card.Text> Featherweight Champ
+   </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
-  <ListGroupItem>Country: United States</ListGroupItem>
-  <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
+  <ListGroupItem>Record: 20-4-0</ListGroupItem>
+  <ListGroupItem>Country: Brazil</ListGroupItem>
+  <ListGroupItem>Height: 5'8''</ListGroupItem>
+  <ListGroupItem>Weight: 145LB</ListGroupItem>
     <ListGroupItem>Reach: 69''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
     <Card.Link href="/bio">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">VS</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://cdn.i-scmp.com/sites/default/files/styles/1920x1080/public/d8/images/methode/2020/04/29/0d0d8738-89bf-11ea-8a72-3b4a65ec119d_image_hires_110826.jpeg?itok=-MOhmLM0&v=1588129714" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
+    <Card.Title>Morgan Anderson</Card.Title>
     <Card.Text>
-      Anderson Silvas
-    </Card.Text>
+Featherweight Challenger    </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Record: 11-4-0</ListGroupItem>
   <ListGroupItem>Country: United States</ListGroupItem>
-  <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
-    <ListGroupItem>Reach: 69''</ListGroupItem>
+  <ListGroupItem>Height: 6'0''</ListGroupItem>
+  <ListGroupItem>Weight: 145LB</ListGroupItem>
+    <ListGroupItem>Reach: 72''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
     <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -221,41 +240,40 @@ const Dashboard = (props) => {
 
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://www.essentiallysports.com/wp-content/uploads/tj1.jpg" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
+    <Card.Title>      TJ Dillashaw
+</Card.Title> Bantamweight
     <Card.Text>
-      Anderson Silva
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Record: 17-4-1</ListGroupItem>
   <ListGroupItem>Country: United States</ListGroupItem>
-  <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
-    <ListGroupItem>Reach: 69''</ListGroupItem>
+  <ListGroupItem>Height: 5'6''</ListGroupItem>
+  <ListGroupItem>Weight: 135LB</ListGroupItem>
+    <ListGroupItem>Reach: 67''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
     <Card.Link href="/bio">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">VS</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://s.yimg.com/ny/api/res/1.2/AbrQAzNg4c8tsljtJC0cmA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTEzMzQuMjU5OTAyNzEwMjE1Mw--/https://s.yimg.com/uu/api/res/1.2/lhmt9hnKn6C48MtahQUwMQ--~B/aD0yMDAwO3c9MTQzOTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/people_218/74a5d0565114100dada303adab95ec66" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
-    <Card.Text>
-      Anderson Silvas
+    <Card.Title>   Cody Garbrandt
+</Card.Title>
+    <Card.Text>  Bantamweight
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Record: 12-3-0</ListGroupItem>
   <ListGroupItem>Country: United States</ListGroupItem>
-  <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
-    <ListGroupItem>Reach: 69''</ListGroupItem>
+  <ListGroupItem>Height: 5'8''</ListGroupItem>
+  <ListGroupItem>Weight: 135LB</ListGroupItem>
+    <ListGroupItem>Reach: 65''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
@@ -268,19 +286,18 @@ const Dashboard = (props) => {
 
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://bc.marfeelcache.com/statics/i/ps/storage.googleapis.com/thisday-846548948316-wp-data/wp-media/2020/05/e81c5df8-kamaru-usman.jpg?width=1200&enable=upscale" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
+    <Card.Title>Kamaru Usman</Card.Title>
     <Card.Text>
-      Anderson Silva
-    </Card.Text>
+Welterweight Champ    </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Record: 17-1-1</ListGroupItem>
   <ListGroupItem>Country: United States</ListGroupItem>
-  <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
-    <ListGroupItem>Reach: 69''</ListGroupItem>
+  <ListGroupItem>Height: 6'0''</ListGroupItem>
+  <ListGroupItem>Weight: 170LB</ListGroupItem>
+    <ListGroupItem>Reach: 76''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
@@ -290,19 +307,18 @@ const Dashboard = (props) => {
 </Card>     
 <h1 className="vs">VS</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://www.kindpng.com/picc/m/545-5456378_img-robbie-lawler-vs-colby-covington-hd-png.png" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
+    <Card.Title>Colby Covington</Card.Title>
     <Card.Text>
-      Anderson Silvas
-    </Card.Text>
+Welterweight Challenger    </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Record: 16-2-0</ListGroupItem>
   <ListGroupItem>Country: United States</ListGroupItem>
   <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
-    <ListGroupItem>Reach: 69''</ListGroupItem>
+  <ListGroupItem>Weight: 170LB</ListGroupItem>
+    <ListGroupItem>Reach: 72''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
@@ -315,19 +331,18 @@ const Dashboard = (props) => {
 
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://i.imgur.com/9NrAt8t.jpg" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
+    <Card.Title>Weili Zhang</Card.Title>
     <Card.Text>
-      Anderson Silva
-    </Card.Text>
+Strawweight Champ    </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
-  <ListGroupItem>Country: United States</ListGroupItem>
-  <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
-    <ListGroupItem>Reach: 69''</ListGroupItem>
+  <ListGroupItem>Record: 21-1-0</ListGroupItem>
+  <ListGroupItem>Country: China</ListGroupItem>
+  <ListGroupItem>Height: 5'4''</ListGroupItem>
+  <ListGroupItem>Weight: 115LB</ListGroupItem>
+    <ListGroupItem>Reach: 63''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>
@@ -337,19 +352,19 @@ const Dashboard = (props) => {
 </Card>     
 <h1 className="vs">VS</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://middleeasy.com/wp-content/uploads/2018/04/1d127b86a952eb5c8a4d52f8f24e9000.jpg" />
+  <Card.Img variant="top" src="https://i.imgur.com/cyxPQtW.jpg" />
   <Card.Body>
-    <Card.Title>Midli</Card.Title>
+    <Card.Title>Rose
+Namajunas</Card.Title>
     <Card.Text>
-      Anderson Silvas
-    </Card.Text>
+Strawweight Challenger    </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-  <ListGroupItem>Record: 12-2-1</ListGroupItem>
+  <ListGroupItem>Record: 10-4-0</ListGroupItem>
   <ListGroupItem>Country: United States</ListGroupItem>
-  <ListGroupItem>Height: 5'11''</ListGroupItem>
-  <ListGroupItem>Weight: 175LB</ListGroupItem>
-    <ListGroupItem>Reach: 69''</ListGroupItem>
+  <ListGroupItem>Height: 5'5''</ListGroupItem>
+  <ListGroupItem>Weight: 115LB</ListGroupItem>
+    <ListGroupItem>Reach: 65''</ListGroupItem>
 
   </ListGroup>
   <Card.Body>

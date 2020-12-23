@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom"
 import {Nav} from "./Nav"
-import Brawl from "../pages/brawl"
+import Past from "../pages/past"
 
 
 import {GlobalCtx} from "../App"
@@ -19,7 +19,7 @@ const Header = (props) => {
     return (<nav>
         {!gState.token ? <Link to="/signup"> <h2> Signup </h2></Link> : null }
         {!gState.token ? <Link to="/login"> <h2>Login</h2></Link> : null}
-        {!gState.token ? <Link to="/past"> </Link> : null}
+        {/* {!gState.token ? <Link to="/past"> </Link> : null} */}
         {gState.token ? <Nav /> : null}
         {gState.token ? logout : null}
 
