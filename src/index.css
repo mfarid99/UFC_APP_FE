@@ -98,3 +98,9 @@ img {
  #originaltxt{
    margin: 20px auto
  }
+
+.nounderline {
+  text-decoration: none !important;
+  color: black;
+
+}

@@ -21,5 +21,10 @@ export const Nav = (props) => {
             </div>
         </Link>
 
+        <Link to = "/stats">
+            <div>
+                Fighters Stats
+            </div>
+        </Link>
     </nav>
 }

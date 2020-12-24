@@ -9,10 +9,7 @@ import {Nav} from "./components/Nav"
 import Past from "./pages/past"
 import Bio from "./pages/bio"
 import Watch from "./pages/watch"
-
-
-
-
+import Stats from "./pages/stats"
 
 
 import {Route, Link, Switch} from "react-router-dom";
@@ -53,6 +50,7 @@ function App() {
       <Route path = "/past" render={(rp)=> gState.token ? <Past/> : <Home/>  }/> 
       <Route path = "/bio" render={(rp)=> gState.token ? <Bio/> : <Home/>}/> 
       <Route path = "/watch" render={(rp)=> gState.token ? <Watch/> : <Home/>}/> 
+      <Route path = "/stats" render={(rp)=> gState.token ? <Stats/> : <Home/>}/>
 
     </div>
     </GlobalCtx.Provider>
