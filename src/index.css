@@ -85,3 +85,16 @@ img {
  #maincardtxt {
    margin: 50px 0px 50px 0px;
  }
+
+ /* .watchimg {
+   width: 100%;
+ } */
+
+ .dc{
+   width: 100%;
+   height: auto;
+ }
+ 
+ #originaltxt{
+   margin: 20px auto
+ }

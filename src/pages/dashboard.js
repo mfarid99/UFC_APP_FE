@@ -95,7 +95,7 @@ const Dashboard = (props) => {
        <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
-      src= "https://i.imgur.com/NnBFcof.jpg"
+      src= "https://i.imgur.com/GeFHZQp.jpg"
       alt="UFC 299"
     />
     <Carousel.Caption>
