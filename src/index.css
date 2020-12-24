@@ -72,7 +72,16 @@ img {
   margin: 0px 350px 0px 350px;
 }
 
-Image {
-  display: flex;
-  justify-content: space-evenly
-}
+ .oldfightsdiv {
+  margin: 20px 0px 20px 0px;
+ }
+
+ #win {
+   background-color: rgb(0, 255, 0);
+   margin: 0px 50px 10px 50px; 
+   padding: 5px 2px 5px 2px;
+ }
+
+ #maincardtxt {
+   margin: 50px 0px 50px 0px;
+ }

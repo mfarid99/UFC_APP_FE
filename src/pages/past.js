@@ -1,6 +1,6 @@
 import React from "react"
 import {GlobalCtx} from "../App"
-import {Carousel, Jumbotron, Button, Card, CardGroup, CardDeck, ListGroup, ListGroupItem, Container, Image, Row, Col} from 'react-bootstrap'
+import {Carousel, Jumbotron, Button, Card, CardGroup, CardDeck, ListGroup, ListGroupItem, Container, Image, Row, Col, Table} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Past = (props) => {
@@ -9,7 +9,16 @@ const Past = (props) => {
     
     return (<>
     <h1>Past</h1>
-   <Carousel>
+    <h1>UFC FIGHT NIGHT</h1>
+
+    <Container>
+  <Row>
+    <Col>
+    <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2020-12/UFCVegas17HeroUpdated.jpg?null&h=d1cb525d&itok=N-1dhahr" fluid />
+    </Col>
+  </Row>
+  </Container>
+   {/* <Carousel>
   <Carousel.Item interval={1000}>
     <img
       className="d-block w-100"
@@ -43,44 +52,184 @@ const Past = (props) => {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>
-
+</Carousel> */}
+              <h1 id="maincardtxt">Main Card Results </h1>
 <Container>
-  <Row>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-    <Col>  <h1>Results</h1> </Col>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
+<Row className="oldfightsdiv">
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-03/THOMPSON_STEPHEN_L.png?yIOFgZcDXQvzvjuBQQQw73IYFi8oQntP&itok=bxYzmGIE" fluid /> </Col>
+    <Col>  
+            <h5 id="win">WIN</h5>
+            <h2> <br/> STEPHEN</h2> 
+            <h2>THOMPSON</h2>
+    </Col>
+    <Col>  
+    <div>
+      <Table response="sm">
+        <thead>
+        <tr>
+        <th>ROUND</th>
+        <th>TIME</th>
+        <th>METHOD</th>
+        </tr>
+
+        </thead>
+        <tbody>
+      <tr>
+        <td>5</td>
+        <td>5:00</td>
+        <td>DEC</td>
+        </tr>
+        </tbody>
+
+      </Table>
+    </div>
+     </Col>
+    <Col>  <h2><br/> <br/> GEOFF</h2> <h2>NEAL</h2> </Col>
+
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-01/NEAL_GEOFF_R.png?3B1b39m6BVekCGO9V_iiz58_9q_LfJJ.&itok=BjbWlzEU" fluid /> </Col>
   </Row>
-  
-  <Row>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-    <Col>  <h1>Results</h1> </Col>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
+  <hr/>
+  <Row className="oldfightsdiv">
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2018-10/ALDO_JOSE_L.png?SwFWKrNE1BTrPj2ClCUGsdjKlXayehnF&itok=VHeqDudg" fluid /> </Col>
+    <Col>  
+            <h5 id="win">WIN</h5>
+            <h2> <br/> JOSE</h2> 
+            <h2>ALDO</h2>
+    </Col>
+    <Col>  
+    <div>
+      <Table response="sm">
+        <thead>
+        <tr>
+        <th>ROUND</th>
+        <th>TIME</th>
+        <th>METHOD</th>
+        </tr>
+
+        </thead>
+        <tbody>
+      <tr>
+        <td>3</td>
+        <td>5:00</td>
+        <td>DEC</td>
+        </tr>
+        </tbody>
+
+      </Table>
+    </div>
+     </Col>
+    <Col>  <h2><br/> <br/> MARLON</h2> <h2>VERA</h2> </Col>
+
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-08/VERA_MARLON_R_08-15.png?yy9M60PHixbbr8RBB6epCj77jQofd6iI&itok=T2SggAOf" fluid /> </Col>
+
+    </Row> 
+
+    <hr/>
+
+    <Row className="oldfightsdiv">
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-09/PEREIRA_MICHEL_L_05-18.png?bARh3OSS9q7CyhjNqDq48JvpBsfI85TD&itok=P044EhX9" fluid /> </Col>
+    <Col>  
+            <h5 id="win">WIN</h5>
+            <h2> <br/> MICHAEL</h2> 
+            <h2>PEREIRA</h2>
+    </Col>
+    <Col>  
+    <div>
+      <Table response="sm">
+        <thead>
+        <tr>
+        <th>ROUND</th>
+        <th>TIME</th>
+        <th>METHOD</th>
+        </tr>
+
+        </thead>
+        <tbody>
+      <tr>
+        <td>5</td>
+        <td>5:00</td>
+        <td>DEC</td>
+        </tr>
+        </tbody>
+
+      </Table>
+    </div>
+     </Col>
+    <Col>  <h2><br/> <br/> KHALOS</h2> <h2>WILLIAMS</h2> </Col>
+
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-02/WILLIAMS_KHAOS_R.png?ocW8gRhvG53VGAy2mRTn1ba8v9B.iRgc&itok=FlBXD43_" fluid /> </Col>
+  </Row>
+  <hr/>
+
+  <Row className="oldfightsdiv">
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-08/PETTIS_ANTHONY_L_0.png?5.cy9oUi2OZvVHaXPccGKKv2xD3huZm8&itok=2-GBp-RL" fluid /> </Col>
+    <Col>   <h5 id="win">WIN</h5>
+            <h2> <br/> ANTHONY</h2> 
+            <h2>PETTIS</h2>
+    </Col>
+    <Col>  
+    <div>
+      <Table response="sm">
+        <thead>
+        <tr>
+        <th>ROUND</th>
+        <th>TIME</th>
+        <th>METHOD</th>
+        </tr>
+
+        </thead>
+        <tbody>
+      <tr>
+        <td>3</td>
+        <td>5:00</td>
+        <td>DEC</td>
+        </tr>
+        </tbody>
+
+      </Table>
+    </div>
+     </Col>
+    <Col>             
+<h2><br/> <br/> ALEX</h2> <h2>MORONO</h2> </Col>
+
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2018-10/MORONO_ALEX_R_0.png?h5PM0SHsDdKr8r_xWZLDVXF851si2KC5&itok=y8ufL_qB" fluid /> </Col>
+  </Row>
+  <hr/>
+
+  <Row className="oldfightsdiv">
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-07/TYBURA_MARCIN_L_04-20.png?w8Qke0TyPuMRtxfKJCRFfYlV6aXrNeBL&itok=F1_pya5l" fluid /> </Col>
+    <Col>  
+            <h5 id="win">WIN</h5>
+            <h2> <br/> MARCIN</h2> 
+            <h2>TYBURA</h2>
+    </Col>
+    <Col>  
+    <div>
+      <Table response="sm">
+        <thead>
+        <tr>
+        <th>ROUND</th>
+        <th>TIME</th>
+        <th>METHOD</th>
+        </tr>
+
+        </thead>
+        <tbody>
+      <tr>
+        <td>2</td>
+        <td>4:30</td>
+        <td>KO/TKO</td>
+        </tr>
+        </tbody>
+
+      </Table>
+    </div>
+     </Col>
+    <Col>  <h2><br/> <br/> GREG</h2> <h2>HARDY</h2> </Col>
+
+    <Col>  <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-10/69677%252Fprofile-galery%252Ffullbodyright-picture%252FHARDY_GREG_R_07-20.png?null&itok=2M9g8r31" fluid /> </Col>
   </Row>
 
-  <Row>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-    <Col>  <h1>Results</h1> </Col>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-  </Row>
-
-  <Row>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-    <Col>  <h1>Results</h1> </Col>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-  </Row>
-
-  <Row>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-    <Col>  <h1>Results</h1> </Col>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-  </Row>
-
-  <Row>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-    <Col>  <h1>Results</h1> </Col>
-    <Col>  <Image src="https://fitnessclone.com/wp-content/uploads/2020/05/Khabib-Nurmagomedov.png" fluid /> </Col>
-  </Row>
 </Container>
 <hr/>
    </> )
