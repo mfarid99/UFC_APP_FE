@@ -10,8 +10,8 @@ const Stats = (props) => {
     
     return (<>
 
-      <h1> Fighter stats</h1>
-
+      <h1 id="statstxt"> FIGHTERS STATS</h1>
+<div className = "statstbl"> 
       <Table striped bordered hover>
   <thead>
     <tr>
@@ -25,9 +25,9 @@ const Stats = (props) => {
       <th>Losses</th>
       <th>Draws</th>
       <th>Belt</th>
-      <th>Average Oct. Time</th>
-      <th>Takedown Accuracy</th>
-      <th>Striking Accuracy</th>
+      <th>Av. Oct. Time</th>
+      <th>Takedown Acc.</th>
+      <th>Striking Acc.</th>
       <th>Win Finish %</th>
 
       
@@ -52,37 +52,37 @@ const Stats = (props) => {
     </tr>
 
     <tr>
-      <td>Stephen</td>
-      <td>Thompson</td>
-      <td>Wonderboy</td>
-      <td>@6'0''</td>
+      <td>Geoff</td>
+      <td>Neal</td>
+      <td>Handz of Steel</td>
+      <td>@5'11''</td>
       <td>@170lbs.</td>
-      <td>75.0''</td>
-      <td>16</td>
-      <td>4</td>
-      <td>1</td>
+      <td>73.0''</td>
+      <td>13</td>
+      <td>3</td>
+      <td>0</td>
       <td></td>
-      <td>2:37</td>
-      <td>35%</td>
-      <td>72%</td>
+      <td>3:13</td>
       <td>47%</td>
+      <td>69%</td>
+      <td>37%</td>
     </tr>
 
     <tr>
-      <td>Stephen</td>
-      <td>Thompson</td>
-      <td>Wonderboy</td>
-      <td>@6'0''</td>
-      <td>@170lbs.</td>
-      <td>75.0''</td>
-      <td>16</td>
-      <td>4</td>
-      <td>1</td>
+      <td>Jose</td>
+      <td>Aldo</td>
       <td></td>
-      <td>2:37</td>
-      <td>35%</td>
-      <td>72%</td>
-      <td>47%</td>
+      <td>@5'7''</td>
+      <td>@135lbs.</td>
+      <td>70.0''</td>
+      <td>29</td>
+      <td>7</td>
+      <td>0</td>
+      <td></td>
+      <td>2:49</td>
+      <td>65%</td>
+      <td>81%</td>
+      <td>73%</td>
     </tr>
 
     <tr>
@@ -326,7 +326,7 @@ const Stats = (props) => {
   </tbody>
 </Table>
 
-      
+</div>
     
 </>)
 }

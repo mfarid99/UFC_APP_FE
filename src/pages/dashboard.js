@@ -88,7 +88,7 @@ const Dashboard = (props) => {
 
 
     return (<>
-<h1>Dashboard</h1>
+<h1 id="dashtxt">UPCOMING EVENT</h1>
          <div className="caroudash"> 
    <Carousel>
       
@@ -170,7 +170,7 @@ const Dashboard = (props) => {
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="/bio">Card Link</Card.Link>
+    <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">VS</h1>
@@ -190,7 +190,7 @@ const Dashboard = (props) => {
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -212,7 +212,7 @@ const Dashboard = (props) => {
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="/bio">Card Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">VS</h1>
@@ -232,7 +232,7 @@ Featherweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -256,7 +256,7 @@ Featherweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="/bio">Card Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">VS</h1>
@@ -277,8 +277,7 @@ Featherweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -301,8 +300,7 @@ Welterweight Champ    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="/bio">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">VS</h1>
@@ -322,8 +320,7 @@ Welterweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -346,8 +343,7 @@ Strawweight Champ    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="/bio">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">VS</h1>
@@ -368,8 +364,7 @@ Strawweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>    
 </div>

@@ -9,7 +9,7 @@ const Bio = (props) => {
     
     return (<>
 
-    <h1>bio</h1>
+    <h1 id="biotxt">FIGHTERS BIO</h1>
     <Figure>
   <Figure.Image
     width={400}

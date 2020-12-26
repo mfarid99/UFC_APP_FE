@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Frijole&family=Sigmar+One&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,12 +18,13 @@ code {
 }
 
 /* Nav Styling */
-nav {
-  display: flex;
-  justify-content: space-around;
-  border: 2px solid navy;
+/* nav {
+  display: left;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 4px;
-}
+} */
 
 .App > a > h1 {
   text-align: center;
@@ -102,5 +108,66 @@ img {
 .nounderline {
   text-decoration: none !important;
   color: black;
+
+}
+
+.statstbl{
+  margin: 40px 20px 10px 20px;
+}
+
+.navheads {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Button > h3 {
+color: rgb(255, 255, 255);
+font-family: 'Frijole', cursive;
+
+
+
+} */
+
+nav {
+  margin: 60px auto;
+}
+
+#logoutbtn {
+  background-color: red;
+  margin: 0px 0px 0px 1450px;
+}
+
+/* #navbtn {
+  background-color: black;
+} */
+
+#navtxt {
+  font-family: 'Frijole', cursive;
+
+}
+
+#navbtn {
+  background-color: black;
+
+}
+
+#navbtn:hover {
+  background-color: gray;
+}
+
+#dashtxt, #biotxt, #pasttxt, #statstxt
+{
+  font-family: 'Bungee', cursive;
+  font-size: 4em;
+
+}
+
+
+#ufctxt {
+
+  font-family: 'Sigmar One', cursive;
+  font-size: 7em;
+  -webkit-text-stroke-width: 6px;
+  -webkit-text-stroke-color: black;
 
 }

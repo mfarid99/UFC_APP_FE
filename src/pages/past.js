@@ -8,8 +8,7 @@ const Past = (props) => {
     // const {brawl} = props
     
     return (<>
-    <h1>Past</h1>
-    <h1>UFC FIGHT NIGHT</h1>
+    <h1 id="pasttxt">UFC FIGHT NIGHT</h1>
       <div>
       <img
       className="d-block w-100"

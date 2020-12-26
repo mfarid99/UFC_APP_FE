@@ -33,7 +33,7 @@ function App() {
   return (
     <GlobalCtx.Provider value = {{gState, setGState}}>
     <div className="App">
-      <Link to = "/" ><h1>MMA</h1></Link>
+      <Link to = "/" ><h1 id="ufctxt">UFC</h1></Link>
 
       <Header />
 
