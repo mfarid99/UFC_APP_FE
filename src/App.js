@@ -45,7 +45,7 @@ function App() {
           <Route path = "/dashboard" render={(rp=> <h1>Dashboard</h1>)}/>
         </Switch>
       </main>
-      {/* {gState.token ? <Route path = "/past" render={(rp)=> <Brawl {...rp}/>}/> : null} */}
+      
 
       <Route path = "/past" render={(rp)=> gState.token ? <Past/> : <Home/>  }/> 
       <Route path = "/bio" render={(rp)=> gState.token ? <Bio/> : <Home/>}/> 
