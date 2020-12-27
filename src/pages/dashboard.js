@@ -155,9 +155,11 @@ const Dashboard = (props) => {
 
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://cdn.readeverything.co/wp-content/uploads/sites/56/2020/04/228-1.jpg" />
+<a href="/stats" class="nounderline">
+<Card.Img variant="top" src="https://cdn.readeverything.co/wp-content/uploads/sites/56/2020/04/228-1.jpg" /> </a>
   <Card.Body>
-    <Card.Title> Max Hollaway</Card.Title>
+  <a href="/stats" class="nounderline">
+ <Card.Title> Max Hollaway</Card.Title> </a>
     <Card.Text> Lightweight
     </Card.Text>
   </Card.Body>
@@ -172,12 +174,15 @@ const Dashboard = (props) => {
   <Card.Body>
     <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
-</Card>     
-<h1 className="vs">VS</h1>
+</Card>    
+ 
+<h1 className="vs">Vs.</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://sportsmanila.net/images/ufc/2018/feb/Brian-Ortega.jpg" />
+<a href="/stats" class="nounderline">
+<Card.Img variant="top" src="https://sportsmanila.net/images/ufc/2018/feb/Brian-Ortega.jpg" /> </a>
   <Card.Body>
-    <Card.Title>  Brian Ortega</Card.Title>
+  <a href="/stats" class="nounderline">
+ <Card.Title>  Brian Ortega</Card.Title> </a>
     <Card.Text> Lightweight
     </Card.Text>
   </Card.Body>
@@ -197,9 +202,11 @@ const Dashboard = (props) => {
 <hr/>
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://i.pinimg.com/originals/4c/82/66/4c826618e3e62fe5e40f8e330ce09c33.jpg" />
+<a href="/stats" class="nounderline">
+<Card.Img variant="top" src="https://i.pinimg.com/originals/4c/82/66/4c826618e3e62fe5e40f8e330ce09c33.jpg" /> </a>
   <Card.Body>
-    <Card.Title>  Amanda Nunes </Card.Title>
+  <a href="/stats" class="nounderline">
+<Card.Title>  Amanda Nunes </Card.Title> </a>
     <Card.Text> Featherweight Champ
    </Card.Text>
   </Card.Body>
@@ -215,11 +222,13 @@ const Dashboard = (props) => {
   <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
-<h1 className="vs">VS</h1>
+<h1 className="vs">Vs.</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://cdn.i-scmp.com/sites/default/files/styles/1920x1080/public/d8/images/methode/2020/04/29/0d0d8738-89bf-11ea-8a72-3b4a65ec119d_image_hires_110826.jpeg?itok=-MOhmLM0&v=1588129714" />
+<a href="/stats" class="nounderline">
+<Card.Img variant="top" src="https://cdn.i-scmp.com/sites/default/files/styles/1920x1080/public/d8/images/methode/2020/04/29/0d0d8738-89bf-11ea-8a72-3b4a65ec119d_image_hires_110826.jpeg?itok=-MOhmLM0&v=1588129714" /> </a>
   <Card.Body>
-    <Card.Title>Morgan Anderson</Card.Title>
+  <a href="/stats" class="nounderline">
+ <Card.Title>Morgan Anderson</Card.Title> </a>
     <Card.Text>
 Featherweight Challenger    </Card.Text>
   </Card.Body>
@@ -240,11 +249,12 @@ Featherweight Challenger    </Card.Text>
 
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://www.essentiallysports.com/wp-content/uploads/tj1.jpg" />
+<a href="/stats" class="nounderline">
+<Card.Img variant="top" src="https://www.essentiallysports.com/wp-content/uploads/tj1.jpg" /> </a>
   <Card.Body>
-    <Card.Title>      TJ Dillashaw
-</Card.Title> Bantamweight
-    <Card.Text>
+  <a href="/stats" class="nounderline"><Card.Title>      TJ Dillashaw
+</Card.Title> </a>
+    <Card.Text>Bantamweight
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
@@ -259,12 +269,12 @@ Featherweight Challenger    </Card.Text>
   <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
-<h1 className="vs">VS</h1>
+<h1 className="vs">Vs.</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://s.yimg.com/ny/api/res/1.2/AbrQAzNg4c8tsljtJC0cmA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTEzMzQuMjU5OTAyNzEwMjE1Mw--/https://s.yimg.com/uu/api/res/1.2/lhmt9hnKn6C48MtahQUwMQ--~B/aD0yMDAwO3c9MTQzOTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/people_218/74a5d0565114100dada303adab95ec66" />
+<a href="/stats" class="nounderline"><Card.Img variant="top" src="https://s.yimg.com/ny/api/res/1.2/AbrQAzNg4c8tsljtJC0cmA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTEzMzQuMjU5OTAyNzEwMjE1Mw--/https://s.yimg.com/uu/api/res/1.2/lhmt9hnKn6C48MtahQUwMQ--~B/aD0yMDAwO3c9MTQzOTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/people_218/74a5d0565114100dada303adab95ec66" /> </a>
   <Card.Body>
-    <Card.Title>   Cody Garbrandt
-</Card.Title>
+  <a href="/stats" class="nounderline"><Card.Title>   Cody Garbrandt
+</Card.Title> </a>
     <Card.Text>  Bantamweight
     </Card.Text>
   </Card.Body>
@@ -285,9 +295,9 @@ Featherweight Challenger    </Card.Text>
 
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://bc.marfeelcache.com/statics/i/ps/storage.googleapis.com/thisday-846548948316-wp-data/wp-media/2020/05/e81c5df8-kamaru-usman.jpg?width=1200&enable=upscale" />
+<a href="/stats" class="nounderline"><Card.Img variant="top" src="https://bc.marfeelcache.com/statics/i/ps/storage.googleapis.com/thisday-846548948316-wp-data/wp-media/2020/05/e81c5df8-kamaru-usman.jpg?width=1200&enable=upscale" /> </a>
   <Card.Body>
-    <Card.Title>Kamaru Usman</Card.Title>
+  <a href="/stats" class="nounderline"><Card.Title>Kamaru Usman</Card.Title> </a>
     <Card.Text>
 Welterweight Champ    </Card.Text>
   </Card.Body>
@@ -303,11 +313,11 @@ Welterweight Champ    </Card.Text>
   <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
-<h1 className="vs">VS</h1>
+<h1 className="vs">Vs.</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://www.kindpng.com/picc/m/545-5456378_img-robbie-lawler-vs-colby-covington-hd-png.png" />
+<a href="/stats" class="nounderline"><Card.Img variant="top" src="https://www.kindpng.com/picc/m/545-5456378_img-robbie-lawler-vs-colby-covington-hd-png.png" /> </a>
   <Card.Body>
-    <Card.Title>Colby Covington</Card.Title>
+  <a href="/stats" class="nounderline"><Card.Title>Colby Covington</Card.Title> </a>
     <Card.Text>
 Welterweight Challenger    </Card.Text>
   </Card.Body>
@@ -328,9 +338,9 @@ Welterweight Challenger    </Card.Text>
 
 <div className="fights">
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://i.imgur.com/9NrAt8t.jpg" />
+<a href="/stats" class="nounderline"><Card.Img variant="top" src="https://i.imgur.com/9NrAt8t.jpg" /> </a>
   <Card.Body>
-    <Card.Title>Weili Zhang</Card.Title>
+  <a href="/stats" class="nounderline"><Card.Title>Weili Zhang</Card.Title> </a>
     <Card.Text>
 Strawweight Champ    </Card.Text>
   </Card.Body>
@@ -346,12 +356,12 @@ Strawweight Champ    </Card.Text>
   <Card.Link href="/bio">BIO</Card.Link>
   </Card.Body>
 </Card>     
-<h1 className="vs">VS</h1>
+<h1 className="vs">Vs.</h1>
 <Card style={{ width: '50rem' }}>
-  <Card.Img variant="top" src="https://i.imgur.com/cyxPQtW.jpg" />
+<a href="/stats" class="nounderline"><Card.Img variant="top" src="https://i.imgur.com/cyxPQtW.jpg" /> </a>
   <Card.Body>
-    <Card.Title>Rose
-Namajunas</Card.Title>
+  <a href="/stats" class="nounderline"><Card.Title>Rose
+Namajunas</Card.Title> </a>
     <Card.Text>
 Strawweight Challenger    </Card.Text>
   </Card.Body>

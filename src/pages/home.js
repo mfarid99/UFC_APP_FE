@@ -4,15 +4,27 @@ const Home = (props) => {
 
     
 
-    return (
-        <div>
-            <h1>Welcome</h1>
-            <h1>Signup to use user dashboard</h1>
-            <div>
-                <img src = "https://sport.one/content/images/2019/01/22.png"/>
-            </div>
-        </div>
-    )
+    return (<>
+
+    
+        <div >
+    
+<img
+      className="d-block w-100"
+      src= "https://sltn.co.uk/wp-content/uploads/2019/09/octagon.jpg"
+      alt="Octagon"
+    />
+                <div class="carousel-caption">
+                    <h1 id="prmpt1txt">Signup or Login</h1>
+                    <h1 id="prmpt1txt">To Access</h1>
+                    <h1 id="prmpt1txt">Everything  </h1>
+                    <h1 id="prmpt2txt"> UFC </h1>
+
+
+                    </div>
+
+    </div>
+    </>)
 }
 
 export default Home

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Frijole&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Frijole&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 
 body {
@@ -53,8 +54,11 @@ input[type="text"], input[type="password"], input[type="submit"], button {
 }
 
 .vs {
-  font-size: 3em;
-  margin: 300px auto
+  font-size: 7em;
+  margin: 300px auto;
+  color: red;
+  font-family: 'Creepster', cursive;
+
 }
 
 .bio {
@@ -148,6 +152,9 @@ nav {
 
 #navbtn {
   background-color: black;
+  box-shadow: 2px 5px #202020;
+
+  
 
 }
 
@@ -159,15 +166,42 @@ nav {
 {
   font-family: 'Bungee', cursive;
   font-size: 4em;
+  text-shadow: 2px 2px 8px #000000;
 
 }
 
 
-#ufctxt {
-
+#ufctxt, #ufctxt:hover {
+  text-shadow: 4px 4px 12px #FF0000;
+  color: red;
   font-family: 'Sigmar One', cursive;
   font-size: 7em;
   -webkit-text-stroke-width: 6px;
   -webkit-text-stroke-color: black;
+  
+}
 
+#prmpt1txt {
+  font-size: 4em;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Bungee', cursive;
+
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 550px;
+}
+
+
+#prmpt2txt {
+  font-size: 15em;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Sigmar One', cursive;
 }
