@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Frijole&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Frijole&family=Sigmar+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 body {
   margin: 0;
@@ -106,7 +106,10 @@ img {
  }
  
  #originaltxt{
-   margin: 20px auto
+   margin: 20px auto;
+   font-family: 'Audiowide', cursive;
+   font-size: 3em;
+
  }
 
 .nounderline {
@@ -193,7 +196,7 @@ nav {
 
 .carousel-caption{
   position: absolute;
-  top: 550px;
+  top: 450px;
 }
 
 
@@ -205,3 +208,313 @@ nav {
   -webkit-text-stroke-color: black;
   font-family: 'Sigmar One', cursive;
 }
+
+.talk {
+  display: flex;
+}
+
+#fannotes {
+  border-style: solid;
+  border-width: 5px; 
+  height: 100px;
+  width: 500px;
+  
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+#fantxt {
+  font-style: italic;
+  color: red;
+}
+
+.fansnotehl {
+  margin: 100px 0px 70px 0px;
+  background-color: rgb(216, 216, 216);
+  padding: 30px 0px 30px 0px
+}
+
+#fansnotehltxt
+{
+  font-family: 'Audiowide', cursive;
+  font-size: 3rem;
+
+}
+
+@media only screen and (max-width: 748px) {
+
+   nav {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    margin: 0px -70px 25px 150px;
+
+  }
+  [class*="dashdiv"]{
+    margin: 200px -300px 0px 90px;
+  }
+
+  [id*="ufctxt"] {
+    margin: 0px -400px 0px 45px;
+
+  }
+
+  [class*="pastmaindiv"] {
+    margin: 0px -300px 0px 90px;
+
+  }
+
+  #statstxt {
+    margin: 0px -100px 25px 300px;
+
+  }
+
+  div > Table{
+    margin: 0px 500px 0px 20px;
+}
+
+#logoutbtn {
+  background-color: rgb(4, 0, 255);
+  margin: 0px -100px 0px 120px;
+}
+
+  [class*="biodiv"] {
+    margin: 0px -250px 25px 150px;
+
+  }
+
+  [class*="biotxt"] {
+    display: inline-block;
+    text-align: none;
+ 
+    margin: 0px -60px 25px 80px;
+ 
+  }
+
+  [class*="watchbio"] {
+    margin: 0px -250px 25px 150px;
+
+  }
+
+  [class*="carousel-caption"] {
+    margin: 300px -350px 0px 0px;
+
+  }
+
+}
+
+@media only screen and (max-width: 1576px) {
+
+  nav {
+   color: red;
+   display: flex;
+   flex-direction: column;
+   margin: 0px -70px 25px 150px;
+
+ }
+ [class*="dashdiv"]{
+   margin: 100px -300px 0px 90px;
+ }
+
+ [id*="ufctxt"] {
+   margin: 0px -400px 0px 45px;
+
+ }
+
+ [class*="pastmaindiv"] {
+   margin: 0px -300px 0px 90px;
+
+ }
+
+ #statstxt {
+   margin: 0px -100px 25px 300px;
+
+ }
+
+ div > Table{
+   margin: 0px 500px 0px 20px;
+}
+
+#logoutbtn {
+ background-color: rgb(4, 0, 255);
+ margin: 0px -100px 0px 120px;
+}
+
+ [class*="biodiv"] {
+   margin: 0px -250px 25px 150px;
+
+ }
+
+ [class*="watchbio"] {
+   margin: 0px -250px 25px 150px;
+
+ }
+
+ [class*="carousel-caption"] {
+   margin: 300px -350px 0px 0px;
+
+ }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  nav {
+   color: red;
+   display: flex;
+   flex-direction: column;
+   margin: 0px -70px 25px 150px;
+
+ }
+ [class*="dashdiv"]{
+   margin: 100px -300px 0px 90px;
+ }
+
+ [id*="ufctxt"] {
+   margin: 0px -400px 0px 45px;
+
+ }
+
+ [class*="pastmaindiv"] {
+   margin: 0px -300px 0px 90px;
+
+ }
+
+ #statstxt {
+   margin: 0px -100px 25px 300px;
+
+ }
+
+ div > Table{
+   margin: 0px 500px 0px 20px;
+}
+
+#logoutbtn {
+ background-color: rgb(4, 0, 255);
+ margin: 0px -100px 0px 120px;
+}
+
+ [class*="biodiv"] {
+   margin: 0px -250px 25px 5px;
+
+ }
+
+ #biotxt {
+  margin: 0px -155px 25px 2px;
+
+ }
+
+ [class*="biotxt"] {
+   display: inline-block;
+   text-align: none;
+
+   margin: 0px -60px 25px 80px;
+
+ }
+
+
+
+ [class*="watchbio"] {
+   margin: 0px -450px 25px 2px;
+
+ }
+
+ #imgbio {
+  margin: 0px -250px 25px -120px;
+
+ }
+
+ #namebio {
+  margin: 0px -250px 5px -100px;
+
+ }
+
+ [class*="carousel-caption"] {
+   margin: 300px -350px 0px 0px;
+
+ }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  nav {
+   color: red;
+   display: flex;
+   flex-direction: column;
+   margin: 0px -70px 25px 150px;
+
+ }
+ [class*="dashdiv"]{
+   margin: 100px -300px 0px 90px;
+ }
+
+ [id*="ufctxt"] {
+   margin: 0px -400px 0px 45px;
+
+ }
+
+ [class*="pastmaindiv"] {
+   margin: 0px -300px 0px 90px;
+
+ }
+
+ #statstxt {
+   margin: 0px -100px 25px 300px;
+
+ }
+
+ div > Table{
+   margin: 0px 500px 0px 60px;
+}
+
+#logoutbtn {
+ background-color: rgb(4, 0, 255);
+ margin: 0px -100px 0px 120px;
+}
+
+ [class*="biodiv"] {
+   margin: 0px -250px 25px 5px;
+
+ }
+
+ #biotxt {
+  margin: 0px -150px 25px 5px;
+
+ }
+
+ [class*="biotxt"] {
+   display: inline-block;
+   text-align: none;
+
+   margin: 0px -60px 25px 80px;
+
+ }
+
+
+
+ [class*="watchbio"] {
+   margin: 0px -450px 25px 2px;
+
+ }
+
+ #imgbio {
+  margin: 0px -250px 25px -100px;
+
+ }
+
+ #namebio {
+  margin: 0px -250px 5px -100px;
+
+ }
+
+ [class*="carousel-caption"] {
+   margin: 300px -350px 0px 0px;
+
+ }
+
+}
+

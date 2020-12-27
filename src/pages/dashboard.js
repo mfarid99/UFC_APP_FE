@@ -88,6 +88,7 @@ const Dashboard = (props) => {
 
 
     return (<>
+    <div className="dashdiv"> 
 <h1 id="dashtxt">UPCOMING EVENT</h1>
          <div className="caroudash"> 
    <Carousel>
@@ -378,27 +379,29 @@ Strawweight Challenger    </Card.Text>
   </Card.Body>
 </Card>    
 </div>
-   <div>
+<div className="fansnotehl"> 
+<h1 id="fansnotehltxt" >Fans Comments</h1>
+</div>
+<div className="talk">
              
-            <h2>New Note</h2>
-            <textarea maxlength = "90" cols="60" rows="10" type = "text" name="note" ref={input}/>
-            <button onClick={handleClick}>Create Note</button>
-            <h2>Update Note</h2>
-            <textarea maxlength = "90" cols="60" rows="10" type = "text" name="note" ref={update}/> 
-
-            <button onClick={handleUpdate}>Update</button> 
-           
-            <h2>Notes</h2>
-            <ul>
-                {notes ? notes.map((note) => (<li key={note._id}><h3> {note.note}</h3>
-                <button onClick = {() => {
-                setUpdateID(note._id)
-                update.current.value = note.note
-                }}>Edit</button>
-                <button onClick={() => handleDelete(note._id)}>Delete</button>
-                </li> )) : null}
-            </ul>
-        </div>
+             <textarea maxlength = "90" cols="20" rows="10" type = "text" name="note" ref={input}/>
+             <Button onClick={handleClick}>Create Note</Button>
+             <textarea maxlength = "90" cols="30" rows="10" type = "text" name="note" ref={update}/> 
+ 
+             <Button onClick={handleUpdate}>Update</Button> 
+            
+         
+             <ul >
+                 {notes ? notes.map((note) => (<li key={note._id}><div id="fannotes"> <h3 id="fantxt"> {note.note}</h3> </div>
+                 <Button onClick = {() => {
+                 setUpdateID(note._id)
+                 update.current.value = note.note
+                 }}>Edit</Button>
+                 <Button onClick={() => handleDelete(note._id)}>Delete</Button>
+                 </li> )) : null}
+             </ul>
+         </div>
+         </div>
     </>)
 }
 

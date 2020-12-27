@@ -9,7 +9,6 @@ const Stats = (props) => {
 
     
     return (<>
-
       <h1 id="statstxt"> FIGHTERS STATS</h1>
 <div className = "statstbl"> 
       <Table striped bordered hover>
@@ -327,7 +326,6 @@ const Stats = (props) => {
 </Table>
 
 </div>
-    
 </>)
 }
     export default Stats

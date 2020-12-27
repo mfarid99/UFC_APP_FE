@@ -10,7 +10,7 @@ const Watch = (props) => {
     return (<>
 
 
-<div >
+<div className="watchbio">
     
 <img
       className="d-block w-100"
@@ -19,7 +19,7 @@ const Watch = (props) => {
     />
 
             <div class="carousel-caption">
-              <h1>UFC FIGHT PASS</h1>
+              <h1 id="originaltxt">UFC FIGHT PASS</h1>
               <h3 id="originaltxt">Originals, UFC library & More</h3>
             
             <Button href = "https://ufcfightpass.com/signup"variant="danger" size ="lg">Subscribe</Button>{' '}

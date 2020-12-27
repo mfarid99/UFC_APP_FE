@@ -12,21 +12,21 @@ const Past = (props) => {
 
   const {gState, setGState} = React.useContext(GlobalCtx)
   const {url, token} = gState
-  const [notes, setNotes] = React.useState(null)
-  const [updateID, setUpdateID] = React.useState(null)
+  const [notes1, setNotes1] = React.useState(null)
+  const [updateID1, setUpdateID1] = React.useState(null)
 
-  const getNotes  = async () => {
-      const response = await fetch(url + "/note/", {
+  const getNotes1  = async () => {
+      const response = await fetch(url + "/comment/", {
           method: "get",
           headers: {
               Authorization: "bearer " + token
           }
       })
       const json = await response.json()
-      setNotes(json)
+      setNotes1(json)
   }
   React.useEffect(()=> {
-      getNotes()
+      getNotes1()
   }, [])
 
   const input = React.useRef(null)
@@ -34,41 +34,41 @@ const Past = (props) => {
 
   const handleClick = (event) => {
       console.log(input)
-      const note = input.current.value
+      const comment = input.current.value
 
-      fetch(url + "/note/", {
+      fetch(url + "/comment/", {
           method: "post",
           headers: {
               "Content-Type": "application/json", 
               Authorization: `bearer ${token}`
           }, 
-          body: JSON.stringify({note})
+          body: JSON.stringify({comment})
       })
           .then(response => response.json())
           .then(data => {
               input.current.value=""
-              getNotes ()
+              getNotes1 ()
           })
       
   };
 
   const handleUpdate = () => {
       console.log(input)
-      const note = update.current.value
+      const comment = update.current.value
 
-      fetch(url + "/note/" + updateID, {
+      fetch(url + "/comment/" + updateID1, {
           method: "put",
           headers: {
               "Content-Type": "application/json", 
               Authorization: `bearer ${token}`
           }, 
-          body: JSON.stringify({note})
+          body: JSON.stringify({comment})
       })
           .then(response => response.json())
           .then(data => {
               update.current.value=""
-              setUpdateID(null)
-              getNotes ()
+              setUpdateID1(null)
+              getNotes1 ()
           })
       
   };
@@ -76,7 +76,7 @@ const Past = (props) => {
   const handleDelete = (id) => {
   
 
-      fetch(url + "/note/" + id, {
+      fetch(url + "/comment/" + id, {
           method: "delete",
           headers: {
               Authorization: `bearer ${token}`
@@ -84,7 +84,7 @@ const Past = (props) => {
       })
           .then(response => response.json())
           .then(data => {
-              getNotes ()
+              getNotes1 ()
           })
       
   }
@@ -93,6 +93,7 @@ const Past = (props) => {
     // const {brawl} = props
     
     return (<>
+    <div className="pastmaindiv"> 
     <h1 id="pasttxt">UFC FIGHT NIGHT</h1>
       <div>
       <img
@@ -338,26 +339,27 @@ const Past = (props) => {
 
 </Container>
 <hr/>
-<div>
+<div className="fansnotehl"> 
+<h1 id="fansnotehltxt" >Fans Comments</h1>
+</div><div className="talk">
              
-            <h2>New Note</h2>
-            <textarea maxlength = "90" cols="60" rows="10" type = "text" name="note" ref={input}/>
-            <button onClick={handleClick}>Create Note</button>
-            <h2>Update Note</h2>
-            <textarea maxlength = "90" cols="60" rows="10" type = "text" name="note" ref={update}/> 
+            <textarea maxlength = "90" cols="20" rows="10" type = "text" name="comment" ref={input}/>
+            <Button onClick={handleClick}>Create Note</Button>
+            <textarea maxlength = "90" cols="30" rows="10" type = "text" name="comment" ref={update}/> 
 
-            <button onClick={handleUpdate}>Update</button> 
+            <Button onClick={handleUpdate}>Update</Button> 
            
-            <h2>Notes</h2>
-            <ul>
-                {notes ? notes.map((note) => (<li key={note._id}><h3> {note.note}</h3>
-                <button onClick = {() => {
-                setUpdateID(note._id)
-                update.current.value = note.note
-                }}>Edit</button>
-                <button onClick={() => handleDelete(note._id)}>Delete</button>
+        
+            <ul >
+                {notes1 ? notes1.map((comment) => (<li key={comment._id}><div id="fannotes"> <h3 id="fantxt"> {comment.comment}</h3> </div>
+                <Button onClick = {() => {
+                setUpdateID1(comment._id)
+                update.current.value = comment.comment
+                }}>Edit</Button>
+                <Button onClick={() => handleDelete(comment._id)}>Delete</Button>
                 </li> )) : null}
             </ul>
+        </div>
         </div>
    </> )
 }
