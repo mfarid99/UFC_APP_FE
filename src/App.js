@@ -20,7 +20,7 @@ export const GlobalCtx = React.createContext(null)
 
 
 function App() {
-  const [gState, setGState] = React.useState({ url: "http://localhost:5000", token: null})
+  const [gState, setGState] = React.useState({ url: "https://reactexpressufcbe.herokuapp.com", token: null})
 
   React.useEffect(()=> {
     const token = JSON.parse(window.localStorage.getItem("token"))
