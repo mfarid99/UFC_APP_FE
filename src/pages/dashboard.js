@@ -174,7 +174,7 @@ const Dashboard = (props) => {
 
   </ListGroup>
   <Card.Body>
-  <Card.Link>  <Link to="/bio"> Biotech   </Link> </Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
        
   </Card.Body>
 </Card>    
@@ -198,7 +198,7 @@ const Dashboard = (props) => {
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -222,7 +222,7 @@ const Dashboard = (props) => {
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">Vs.</h1>
@@ -244,7 +244,7 @@ Featherweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -269,7 +269,7 @@ Featherweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">Vs.</h1>
@@ -290,7 +290,7 @@ Featherweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -313,7 +313,7 @@ Welterweight Champ    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">Vs.</h1>
@@ -333,7 +333,7 @@ Welterweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>    
 </div>
@@ -356,7 +356,7 @@ Strawweight Champ    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>     
 <h1 className="vs">Vs.</h1>
@@ -377,7 +377,7 @@ Strawweight Challenger    </Card.Text>
 
   </ListGroup>
   <Card.Body>
-  <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Bio  </Link> </Card.Link>
   </Card.Body>
 </Card>    
 </div>
