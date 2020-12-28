@@ -1,5 +1,6 @@
 import { set } from "mongoose"
 import React from "react"
+import {Link} from "react-router"
 import {GlobalCtx} from "../App"
 import {Carousel, Jumbotron, Button, Card, CardGroup, CardDeck, ListGroup, ListGroupItem, Container, Image, Row, Col, Table} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -108,13 +109,13 @@ const Past = (props) => {
     <Col>  
     <h5 id="win">WIN</h5>
 
-    <a href="/stats" class="nounderline">
+    <Link to="/stats" class="nounderline">
 
             <div> 
               <h2 id="stephen">  <br/>  STEPHEN </h2> 
             <h2>THOMPSON</h2> 
             </div>
-            </a>
+            </Link>
     </Col>
     <Col>  
     <div>
