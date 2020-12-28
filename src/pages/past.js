@@ -105,7 +105,7 @@ const Past = (props) => {
               <h1 id="maincardtxt">Main Card Results </h1>
 <Container>
 <Row className="oldfightsdiv">
-    <Col>  <a href="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-03/THOMPSON_STEPHEN_L.png?yIOFgZcDXQvzvjuBQQQw73IYFi8oQntP&itok=bxYzmGIE" fluid /> </a> </Col>
+    <Col>  <Link to="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-03/THOMPSON_STEPHEN_L.png?yIOFgZcDXQvzvjuBQQQw73IYFi8oQntP&itok=bxYzmGIE" fluid /> </Link> </Col>
     <Col>  
     <h5 id="win">WIN</h5>
 
@@ -139,21 +139,21 @@ const Past = (props) => {
       </Table>
     </div>
      </Col>
-    <Col>  <a href="/stats" class="nounderline"><div><h2><br/> <br/> GEOFF</h2> <h2>NEAL</h2> </div> </a> </Col>
+    <Col>  <Link to="/stats" class="nounderline"><div><h2><br/> <br/> GEOFF</h2> <h2>NEAL</h2> </div> </Link> </Col>
 
-    <Col>  <a href="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-01/NEAL_GEOFF_R.png?3B1b39m6BVekCGO9V_iiz58_9q_LfJJ.&itok=BjbWlzEU" fluid /> </a></Col>
+    <Col>  <Link to="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-01/NEAL_GEOFF_R.png?3B1b39m6BVekCGO9V_iiz58_9q_LfJJ.&itok=BjbWlzEU" fluid /> </Link></Col>
   </Row>
   <hr/>
   <Row className="oldfightsdiv">
-    <Col> <a href="/stats" class="nounderline"><Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2018-10/ALDO_JOSE_L.png?SwFWKrNE1BTrPj2ClCUGsdjKlXayehnF&itok=VHeqDudg" fluid /> </a></Col>
+    <Col> <Link to="/stats" class="nounderline"><Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2018-10/ALDO_JOSE_L.png?SwFWKrNE1BTrPj2ClCUGsdjKlXayehnF&itok=VHeqDudg" fluid /> </Link></Col>
     <Col>  
             <h5 id="win">WIN</h5>
-            <a href="/stats" class="nounderline"> 
+            <Link to="/stats" class="nounderline"> 
             <div> 
             <h2> <br/> JOSE</h2> 
             <h2>ALDO</h2>
             </div>
-            </a>
+            </Link>
     </Col>
     <Col>  
     <div>
@@ -177,23 +177,23 @@ const Past = (props) => {
       </Table>
     </div>
      </Col>
-    <Col>  <a href="/stats" class="nounderline"><div> <h2><br/> <br/> MARLON</h2> <h2>VERA</h2> </div></a></Col>
+    <Col>  <Link to= "/stats" class="nounderline"><div> <h2><br/> <br/> MARLON</h2> <h2>VERA</h2> </div></Link></Col>
 
-    <Col>  <a href="/stats" class="nounderline"><Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-08/VERA_MARLON_R_08-15.png?yy9M60PHixbbr8RBB6epCj77jQofd6iI&itok=T2SggAOf" fluid /> </a> </Col>
+    <Col>  <Link to="/stats" class="nounderline"><Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-08/VERA_MARLON_R_08-15.png?yy9M60PHixbbr8RBB6epCj77jQofd6iI&itok=T2SggAOf" fluid /> </Link> </Col>
 
     </Row> 
 
     <hr/>
 
     <Row className="oldfightsdiv">
-    <Col>  <a href="/stats" class="nounderline"><Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-09/PEREIRA_MICHEL_L_05-18.png?bARh3OSS9q7CyhjNqDq48JvpBsfI85TD&itok=P044EhX9" fluid /> </a> </Col>
+    <Col>  <Link to="/stats" class="nounderline"><Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-09/PEREIRA_MICHEL_L_05-18.png?bARh3OSS9q7CyhjNqDq48JvpBsfI85TD&itok=P044EhX9" fluid /> </Link> </Col>
     <Col>  
             <h5 id="win">WIN</h5>
             <div> 
-            <a href="/stats" class="nounderline">
+            <Link to="/stats" class="nounderline">
             <h2> <br/> MICHAEL</h2> 
             <h2>PEREIRA</h2>
-            </a>
+            </Link>
             </div>
     </Col>
     <Col>  
@@ -218,21 +218,21 @@ const Past = (props) => {
       </Table>
     </div>
      </Col>
-    <Col> <a href="/stats" class="nounderline"> <div><h2><br/> <br/> KHAOS</h2> <h2>WILLIAMS</h2> </div></a></Col>
+    <Col> <Link to="/stats" class="nounderline"> <div><h2><br/> <br/> KHAOS</h2> <h2>WILLIAMS</h2> </div></Link></Col>
 
-    <Col>  <a href="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-02/WILLIAMS_KHAOS_R.png?ocW8gRhvG53VGAy2mRTn1ba8v9B.iRgc&itok=FlBXD43_" fluid /> </a> </Col>
+    <Col>  <Link to="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-02/WILLIAMS_KHAOS_R.png?ocW8gRhvG53VGAy2mRTn1ba8v9B.iRgc&itok=FlBXD43_" fluid /> </Link> </Col>
   </Row>
   <hr/>
 
   <Row className="oldfightsdiv">
-    <Col> <a href="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-08/PETTIS_ANTHONY_L_0.png?5.cy9oUi2OZvVHaXPccGKKv2xD3huZm8&itok=2-GBp-RL" fluid /> </a></Col>
+    <Col> <Link to="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2019-08/PETTIS_ANTHONY_L_0.png?5.cy9oUi2OZvVHaXPccGKKv2xD3huZm8&itok=2-GBp-RL" fluid /> </Link></Col>
     <Col>   <h5 id="win">WIN</h5>
-    <a href="/stats" class="nounderline">
+    <Link to="/stats" class="nounderline">
       <div> 
             <h2> <br/> ANTHONY</h2> 
             <h2>PETTIS</h2>
             </div>
-            </a>
+            </Link>
     </Col>
     <Col>  
     <div>
@@ -257,22 +257,22 @@ const Past = (props) => {
     </div>
      </Col>
     <Col>             
-    <a href="/stats" class="nounderline"><div><h2><br/> <br/> ALEX</h2> <h2>MORONO</h2> </div> </a> </Col>
+    <Link to="/stats" class="nounderline"><div><h2><br/> <br/> ALEX</h2> <h2>MORONO</h2> </div> </Link> </Col>
 
-    <Col> <a href="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2018-10/MORONO_ALEX_R_0.png?h5PM0SHsDdKr8r_xWZLDVXF851si2KC5&itok=y8ufL_qB" fluid /> </a> </Col>
+    <Col> <Link to="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2018-10/MORONO_ALEX_R_0.png?h5PM0SHsDdKr8r_xWZLDVXF851si2KC5&itok=y8ufL_qB" fluid /> </Link> </Col>
   </Row>
   <hr/>
 
   <Row className="oldfightsdiv">
-    <Col> <a href="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-07/TYBURA_MARCIN_L_04-20.png?w8Qke0TyPuMRtxfKJCRFfYlV6aXrNeBL&itok=F1_pya5l" fluid /> </a></Col>
+    <Col> <Link to="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-07/TYBURA_MARCIN_L_04-20.png?w8Qke0TyPuMRtxfKJCRFfYlV6aXrNeBL&itok=F1_pya5l" fluid /> </Link></Col>
     <Col>  
             <h5 id="win">WIN</h5>
-            <a href="/stats" class="nounderline"> 
+            <Link to="/stats" class="nounderline"> 
             <div> 
             <h2> <br/> MARCIN</h2> 
             <h2>TYBURA</h2>
             </div>
-            </a>
+            </Link>
     </Col>
     <Col>  
     <div>
@@ -296,9 +296,9 @@ const Past = (props) => {
       </Table>
     </div>
      </Col>
-    <Col> <a href="/stats" class="nounderline"> <h2><br/> <br/> GREG</h2> <h2>HARDY</h2> </a></Col>
+    <Col> <Link to="/stats" class="nounderline"> <h2><br/> <br/> GREG</h2> <h2>HARDY</h2> </Link></Col>
 
-    <Col> <a href="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-10/69677%252Fprofile-galery%252Ffullbodyright-picture%252FHARDY_GREG_R_07-20.png?null&itok=2M9g8r31" fluid /> </a> </Col>
+    <Col> <Link to="/stats" class="nounderline"> <Image src="https://dmxg5wxfqgb4u.cloudfront.net/styles/event_fight_card_upper_body_of_standing_athlete/s3/2020-10/69677%252Fprofile-galery%252Ffullbodyright-picture%252FHARDY_GREG_R_07-20.png?null&itok=2M9g8r31" fluid /> </Link> </Col>
   </Row>
 
 </Container>
