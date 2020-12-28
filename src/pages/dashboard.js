@@ -174,7 +174,8 @@ const Dashboard = (props) => {
 
   </ListGroup>
   <Card.Body>
-    <Card.Link href="/bio">BIO</Card.Link>
+  <Card.Link>  <Link to="/bio"> Biotech   </Link> </Card.Link>
+       
   </Card.Body>
 </Card>    
  
