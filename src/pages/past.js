@@ -1,6 +1,6 @@
 import { set } from "mongoose"
 import React from "react"
-import {Link} from "react-router"
+import {Link} from "react-router-dom"
 import {GlobalCtx} from "../App"
 import {Carousel, Jumbotron, Button, Card, CardGroup, CardDeck, ListGroup, ListGroupItem, Container, Image, Row, Col, Table} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
