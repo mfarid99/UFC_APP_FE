@@ -294,6 +294,11 @@ ul {
    margin: 0px -70px 25px 150px;
 
  }
+
+ img {
+  max-height: 100%;
+}
+
  [class*="dashdiv"]{
    margin: 100px -300px 0px 90px;
  }
@@ -348,6 +353,11 @@ ul {
    margin: 0px -70px 25px 150px;
 
  }
+
+ img {
+   height: 100%;
+ }
+
  [class*="dashdiv"]{
    margin: 100px -300px 0px 90px;
  }
@@ -496,4 +506,3 @@ ul {
  }
 
 }
-

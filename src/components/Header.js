@@ -20,8 +20,8 @@ const Header = (props) => {
 
     return (<> 
         <nav> 
-            {!gState.token ? <Link to="/signup">  <Button><h3>Signup</h3></Button> </Link> : null }  
-            {!gState.token ? <Link to="/login"> <Button><h3>Login</h3></Button> </Link> : null} 
+            {!gState.token ? <Link to="/signup">  <Button id="signupbtn"><h3>Signup</h3></Button> </Link> : null }  
+            {!gState.token ? <Link to="/login"> <Button id="loginbtn"><h3>Login</h3></Button> </Link> : null} 
             {gState.token ? <Nav /> : null} 
             {gState.token ? logout : null} 
         </nav>
