@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,7 +19,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 
 .App > a > h1 {
   text-align: center;
@@ -225,7 +226,7 @@ ul {
 
 
 /* Iphone X */
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
 
   nav {
    color: red;
@@ -240,7 +241,8 @@ ul {
 }
 
  img {
-   height: 100%;
+   height: 500px;
+   width: 1000px;
  }
 
  [class*="dashdiv"]{
@@ -261,8 +263,8 @@ margin: 50px -770px 0px 40px;
 }
  
 #prmpt2txt {
-  font-size: 12em;
-  margin: 0px 0px 0px 350px;
+  font-size: 8em;
+  margin: 0px 0px 0px 425px;
 
 }
 
@@ -346,8 +348,8 @@ margin: 50px -770px 0px 40px;
 
 }
 
-/* Ipad Pro */
-/* @media only screen and (max-width: 1024px) {
+/* Desktop */
+ @media (min-width: 2024px) {
 
   [class*="logsigndiv"] {
     margin: 0px -225px 0px 225px;
@@ -459,5 +461,465 @@ margin: 50px -770px 0px 40px;
   margin: -30px -70px 0px 0px;
 
  }
+} 
+
+/* Desktop 800px */
+/* @media (min-width: 800px) {
+
+  [class*="logsigndiv"] {
+    margin: 0px -225px 0px 225px;
+  }
+  [class*="cagediv"] {
+    margin: 50px -400px 0px 0px;
+     }
+    
+      [class*="homepgdiv"]{
+       margin: -480px 0px 0px 0px;
+     } 
+    #prmpt1txt {
+      font-size: 6em;
+      margin: 40px 0px 0px 50px;
+    
+    }
+     
+    #prmpt2txt {
+      font-size: 8em;
+      margin: 40px 0px 0px 70px;
+    
+    }
+    
+    #signupbtn, #loginbtn {
+      margin: 10px -50px 0px 200px;
+    }
+
+
+  nav {
+   color: red;
+   display: flex;
+   flex-direction: row;
+   margin: 0px -70px 25px 150px;
+
+ }
+ [class*="dashdiv"]{
+   margin: 100px -300px 0px 90px;
+ }
+
+ [id*="ufctxt"] {
+   margin: 0px -400px 0px 45px;
+
+ }
+
+ [class*="pastmaindiv"] {
+   margin: 0px -300px 0px 90px;
+
+ }
+
+ #statstxt {
+   margin: 0px -100px 25px 300px;
+
+ }
+
+ div > Table{
+   margin: 0px 500px 0px 60px;
 }
- */
+
+#logoutbtn {
+ background-color: rgb(4, 0, 255);
+ margin: 0px -100px 0px 120px;
+}
+
+ [class*="biodiv"] {
+   margin: 0px -250px 25px 5px;
+
+ }
+
+ #biotxt {
+  margin: 0px -150px 25px 5px;
+
+ }
+
+ [class*="biotxt"] {
+   display: inline-block;
+   text-align: none;
+
+   margin: 0px -60px 25px 80px;
+
+ }
+
+
+
+ [class*="watchbio"] {
+   margin: 0px -450px 25px 2px;
+
+ }
+
+ #imgbio {
+  margin: 0px -250px 25px -100px;
+
+ }
+
+ #namebio {
+  margin: 0px -250px 5px -100px;
+
+ }
+
+ [class*="carousel-caption"] {
+   margin: 300px -350px 0px 0px;
+
+ }
+
+ #originaltxt {
+   margin: 0px 0px 50px 0px;
+ }
+
+ [class*="watchbtns"] {
+  margin: -30px -70px 0px 0px;
+
+ }
+} */
+ 
+
+/*  
+@media (max-width: 799px) {
+
+  [class*="logsigndiv"] {
+    margin: 0px -225px 0px 225px;
+  }
+  [class*="cagediv"] {
+    margin: 50px -400px 0px 0px;
+     }
+    
+      [class*="homepgdiv"]{
+       margin: -480px 0px 0px 0px;
+     } 
+    #prmpt1txt {
+      font-size: 6em;
+      margin: 40px 0px 0px 50px;
+    
+    }
+     
+    #prmpt2txt {
+      font-size: 8em;
+      margin: 40px 0px 0px 70px;
+    
+    }
+    
+    #signupbtn, #loginbtn {
+      margin: 10px -50px 0px 200px;
+    }
+
+
+  nav {
+   color: red;
+   display: flex;
+   flex-direction: column;
+   margin: 0px -70px 25px 150px;
+
+ }
+ [class*="dashdiv"]{
+   margin: 100px -300px 0px 90px;
+ }
+
+ [id*="ufctxt"] {
+   margin: 0px -400px 0px 45px;
+
+ }
+
+ [class*="pastmaindiv"] {
+   margin: 0px -300px 0px 90px;
+
+ }
+
+ #statstxt {
+   margin: 0px -100px 25px 300px;
+
+ }
+
+ div > Table{
+   margin: 0px 500px 0px 60px;
+}
+
+#logoutbtn {
+ background-color: rgb(4, 0, 255);
+ margin: 0px -100px 0px 120px;
+}
+
+ [class*="biodiv"] {
+   margin: 0px -250px 25px 5px;
+
+ }
+
+ #biotxt {
+  margin: 0px -150px 25px 5px;
+
+ }
+
+ [class*="biotxt"] {
+   display: inline-block;
+   text-align: none;
+
+   margin: 0px -60px 25px 80px;
+
+ }
+
+
+
+ [class*="watchbio"] {
+   margin: 0px -450px 25px 2px;
+
+ }
+
+ #imgbio {
+  margin: 0px -250px 25px -100px;
+
+ }
+
+ #namebio {
+  margin: 0px -250px 5px -100px;
+
+ }
+
+ [class*="carousel-caption"] {
+   margin: 300px -350px 0px 0px;
+
+ }
+
+ #originaltxt {
+   margin: 0px 0px 50px 0px;
+ }
+
+ [class*="watchbtns"] {
+  margin: -30px -70px 0px 0px;
+
+ }
+} */
+/*  
+@media (min-width: 1898px), (min-height: 817) {
+
+  [class*="logsigndiv"] {
+    margin: 0px -225px 0px 225px;
+  }
+  [class*="cagediv"] {
+    margin: 50px -400px 0px 0px;
+     }
+    
+      [class*="homepgdiv"]{
+       margin: -480px 0px 0px 0px;
+     } 
+    #prmpt1txt {
+      font-size: 6em;
+      margin: 40px 0px 0px 50px;
+    
+    }
+     
+    #prmpt2txt {
+      font-size: 8em;
+      margin: 40px 0px 0px 70px;
+    
+    }
+    
+    #signupbtn, #loginbtn {
+      margin: 10px -50px 0px 200px;
+    }
+
+
+  nav {
+   color: red;
+   display: flex;
+   flex-direction: row;
+   margin: 0px -70px 25px 150px;
+
+ }
+ [class*="dashdiv"]{
+   margin: 100px -300px 0px 90px;
+ }
+
+ [id*="ufctxt"] {
+   margin: 0px -400px 0px 45px;
+
+ }
+
+ [class*="pastmaindiv"] {
+   margin: 0px -300px 0px 90px;
+
+ }
+
+ #statstxt {
+   margin: 0px -100px 25px 300px;
+
+ }
+
+ div > Table{
+   margin: 0px 500px 0px 60px;
+}
+
+#logoutbtn {
+ background-color: rgb(255, 0, 0);
+ margin: 0px -100px 0px 120px;
+}
+
+ [class*="biodiv"] {
+   margin: 0px -250px 25px 5px;
+
+ }
+
+ #biotxt {
+  margin: 0px -150px 25px 5px;
+
+ }
+
+ [class*="biotxt"] {
+   display: inline-block;
+   text-align: none;
+
+   margin: 0px -60px 25px 80px;
+
+ }
+
+
+
+ [class*="watchbio"] {
+   margin: 0px -450px 25px 2px;
+
+ }
+
+ #imgbio {
+  margin: 0px -250px 25px -100px;
+
+ }
+
+ #namebio {
+  margin: 0px -250px 5px -100px;
+
+ }
+
+ [class*="carousel-caption"] {
+   margin: 300px -350px 0px 0px;
+
+ }
+
+ #originaltxt {
+   margin: 0px 0px 50px 0px;
+ }
+
+ [class*="watchbtns"] {
+  margin: -30px -70px 0px 0px;
+
+ }
+}
+  */
+
+  @media (max-width: 1024px) {
+
+    [class*="logsigndiv"] {
+      margin: 0px -225px 0px 225px;
+    }
+    [class*="cagediv"] {
+      margin: 50px -400px 0px 0px;
+       }
+      
+        [class*="homepgdiv"]{
+         margin: -480px 0px 0px 0px;
+       } 
+      #prmpt1txt {
+        font-size: 6em;
+        margin: 40px 0px 0px 50px;
+      
+      }
+       
+      #prmpt2txt {
+        font-size: 8em;
+        margin: 40px 0px 0px 70px;
+      
+      }
+      
+      #signupbtn, #loginbtn {
+        margin: 10px -50px 0px 200px;
+      }
+  
+  
+    nav {
+     color: red;
+     display: flex;
+     flex-direction: column;
+     margin: 0px -70px 25px 150px;
+  
+   }
+   [class*="dashdiv"]{
+     margin: 100px -300px 0px 90px;
+   }
+  
+   [id*="ufctxt"] {
+     margin: 0px -400px 0px 45px;
+  
+   }
+  
+   [class*="pastmaindiv"] {
+     margin: 0px -300px 0px 90px;
+  
+   }
+  
+   #statstxt {
+     margin: 0px -100px 25px 300px;
+  
+   }
+  
+   div > Table{
+     margin: 0px 500px 0px 60px;
+  }
+  
+  #logoutbtn {
+   background-color: rgb(4, 0, 255);
+   margin: 0px -100px 0px 120px;
+  }
+  
+   [class*="biodiv"] {
+     margin: 0px -250px 25px 5px;
+  
+   }
+  
+   #biotxt {
+    margin: 0px -150px 25px 5px;
+  
+   }
+  
+   [class*="biotxt"] {
+     display: inline-block;
+     text-align: none;
+  
+     margin: 0px -60px 25px 80px;
+  
+   }
+  
+  
+  
+   [class*="watchbio"] {
+     margin: 0px -450px 25px 2px;
+  
+   }
+  
+   #imgbio {
+    margin: 0px -250px 25px -100px;
+  
+   }
+  
+   #namebio {
+    margin: 0px -250px 5px -100px;
+  
+   }
+  
+   [class*="carousel-caption"] {
+     margin: 300px -350px 0px 0px;
+  
+   }
+  
+   #originaltxt {
+     margin: 0px 0px 50px 0px;
+   }
+  
+   [class*="watchbtns"] {
+    margin: -30px -70px 0px 0px;
+  
+   }
+  } 
+  
