@@ -223,126 +223,6 @@ ul {
 
 }
 
-@media only screen and (max-width: 748px) {
-
-   nav {
-    color: red;
-    display: flex;
-    flex-direction: column;
-    margin: 0px -70px 25px 150px;
-
-  }
-  [class*="dashdiv"]{
-    margin: 200px -300px 0px 90px;
-  }
-
-  [id*="ufctxt"] {
-    margin: 0px -400px 0px 45px;
-
-  }
-
-  [class*="pastmaindiv"] {
-    margin: 0px -300px 0px 90px;
-
-  }
-
-  #statstxt {
-    margin: 0px -100px 25px 300px;
-
-  }
-
-  div > Table{
-    margin: 0px 500px 0px 20px;
-}
-
-#logoutbtn {
-  background-color: rgb(4, 0, 255);
-  margin: 0px -100px 0px 120px;
-}
-
-  [class*="biodiv"] {
-    margin: 0px -250px 25px 150px;
-
-  }
-
-  [class*="biotxt"] {
-    display: inline-block;
-    text-align: none;
- 
-    margin: 0px -60px 25px 80px;
- 
-  }
-
-  [class*="watchbio"] {
-    margin: 0px -250px 25px 150px;
-
-  }
-
-  [class*="carousel-caption"] {
-    margin: 300px -350px 0px 0px;
-
-  }
-
-}
-
-@media only screen and (max-width: 1576px) {
-
-  nav {
-   color: red;
-   display: flex;
-   flex-direction: column;
-   margin: 0px -70px 25px 150px;
-
- }
-
- img {
-  max-height: 100%;
-}
-
- [class*="dashdiv"]{
-   margin: 100px -300px 0px 90px;
- }
-
- [id*="ufctxt"] {
-   margin: 0px -400px 0px 45px;
-
- }
-
- [class*="pastmaindiv"] {
-   margin: 0px -300px 0px 90px;
-
- }
-
- #statstxt {
-   margin: 0px -100px 25px 300px;
-
- }
-
- div > Table{
-   margin: 0px 500px 0px 20px;
-}
-
-#logoutbtn {
- background-color: rgb(4, 0, 255);
- margin: 0px -100px 0px 120px;
-}
-
- [class*="biodiv"] {
-   margin: 0px -250px 25px 150px;
-
- }
-
- [class*="watchbio"] {
-   margin: 0px -250px 25px 150px;
-
- }
-
- [class*="carousel-caption"] {
-   margin: 300px -350px 0px 0px;
-
- }
-
-}
 
 /* Iphone X */
 @media only screen and (max-width: 375px) {
@@ -467,7 +347,7 @@ margin: 50px -770px 0px 40px;
 }
 
 /* Ipad Pro */
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
 
   [class*="logsigndiv"] {
     margin: 0px -225px 0px 225px;
@@ -580,4 +460,4 @@ margin: 50px -770px 0px 40px;
 
  }
 }
-
+ */
