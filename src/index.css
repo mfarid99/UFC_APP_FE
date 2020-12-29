@@ -351,52 +351,57 @@ ul {
    color: red;
    display: flex;
    flex-direction: column;
-   margin: 0px -70px 25px 150px;
+   margin: 0px -200px 25px 250px;
 
  }
+
+ [class*="logsigndiv"] {
+  margin: 0px -425px 0px 425px;
+}
 
  img {
    height: 100%;
  }
 
  [class*="dashdiv"]{
-   margin: 100px -300px 0px 90px;
+   margin: 100px -730px 0px 70px;
  }
 
  [class*="cagediv"] {
-margin: 50px -400px 0px 0px;
+margin: 50px -770px 0px 40px;
  }
 
   [class*="homepgdiv"]{
    margin: -480px 0px 0px 0px;
  } 
 #prmpt1txt {
-  font-size: 3em;
-  margin: 30px 0px 0px 50px;
+  font-size: 4em;
+  margin: 30px -150px 30px 350px;
 
 }
  
 #prmpt2txt {
-  font-size: 8em;
-  margin: 0px 0px 0px 70px;
+  font-size: 12em;
+  margin: 0px 0px 0px 350px;
 
 }
 
 #signupbtn, #loginbtn {
-  margin: 10px -50px 0px 200px;
+  margin: 10px -180px 0px 250px;
 }
  [id*="ufctxt"] {
-   margin: 0px -400px 0px 45px;
+   margin: 0px -800px 0px 90px;
 
  }
 
  [class*="pastmaindiv"] {
-   margin: 0px -300px 0px 90px;
+   margin: 100px -700px 0px 90px;
+
 
  }
 
  #statstxt {
-   margin: 0px -100px 25px 300px;
+   margin: 0px -500px 25px 430px;
 
  }
 
@@ -406,11 +411,11 @@ margin: 50px -400px 0px 0px;
 
 #logoutbtn {
  background-color: rgb(4, 0, 255);
- margin: 0px -100px 0px 120px;
+ margin: 0px -330px 0px 120px;
 }
 
  [class*="biodiv"] {
-   margin: 0px -250px 25px 5px;
+   margin: 100px -670px 25px 5px;
 
  }
 
@@ -430,7 +435,7 @@ margin: 50px -400px 0px 0px;
 
 
  [class*="watchbio"] {
-   margin: 0px -450px 25px 2px;
+   margin: 0px -840px 25px 30px;
 
  }
 
@@ -449,10 +454,20 @@ margin: 50px -400px 0px 0px;
 
  }
 
+ #originaltxt {
+   margin: -150px -550px 150px 0px; 
+   font-size: 2em;
+ }
+
+ [class*="watchbtns"] {
+  margin: -100px -570px 0px 0px;
+
+ }
+
 }
 
 /* Ipad Pro */
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
   [class*="logsigndiv"] {
     margin: 0px -225px 0px 225px;
@@ -465,7 +480,7 @@ margin: 50px -400px 0px 0px;
        margin: -480px 0px 0px 0px;
      } 
     #prmpt1txt {
-      font-size: 3em;
+      font-size: 6em;
       margin: 40px 0px 0px 50px;
     
     }
@@ -557,11 +572,11 @@ margin: 50px -400px 0px 0px;
  }
 
  #originaltxt {
-   margin: -100px 0px 100px 0px;
+   margin: 0px 0px 50px 0px;
  }
 
  [class*="watchbtns"] {
-  margin: -50px -70px 0px 0px;
+  margin: -30px -70px 0px 0px;
 
  }
 }
