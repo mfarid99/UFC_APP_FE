@@ -344,6 +344,7 @@ ul {
 
 }
 
+/* Iphone X */
 @media only screen and (max-width: 375px) {
 
   nav {
@@ -362,6 +363,28 @@ ul {
    margin: 100px -300px 0px 90px;
  }
 
+ [class*="cagediv"] {
+margin: 50px -400px 0px 0px;
+ }
+
+  [class*="homepgdiv"]{
+   margin: -480px 0px 0px 0px;
+ } 
+#prmpt1txt {
+  font-size: 3em;
+  margin: 30px 0px 0px 50px;
+
+}
+ 
+#prmpt2txt {
+  font-size: 8em;
+  margin: 0px 0px 0px 70px;
+
+}
+
+#signupbtn, #loginbtn {
+  margin: 10px -50px 0px 200px;
+}
  [id*="ufctxt"] {
    margin: 0px -400px 0px 45px;
 
@@ -428,7 +451,35 @@ ul {
 
 }
 
+/* Ipad Pro */
 @media only screen and (max-width: 1024px) {
+
+  [class*="logsigndiv"] {
+    margin: 0px -225px 0px 225px;
+  }
+  [class*="cagediv"] {
+    margin: 50px -400px 0px 0px;
+     }
+    
+      [class*="homepgdiv"]{
+       margin: -480px 0px 0px 0px;
+     } 
+    #prmpt1txt {
+      font-size: 3em;
+      margin: 40px 0px 0px 50px;
+    
+    }
+     
+    #prmpt2txt {
+      font-size: 8em;
+      margin: 40px 0px 0px 70px;
+    
+    }
+    
+    #signupbtn, #loginbtn {
+      margin: 10px -50px 0px 200px;
+    }
+
 
   nav {
    color: red;
@@ -504,5 +555,130 @@ ul {
    margin: 300px -350px 0px 0px;
 
  }
+
+ #originaltxt {
+   margin: -100px 0px 100px 0px;
+ }
+
+ [class*="watchbtns"] {
+  margin: -50px -70px 0px 0px;
+
+ }
+}
+
+/* Macbook Pro 13 */
+@media only screen and (max-width: 2560px) {
+
+  [class*="logsigndiv"] {
+    margin: 0px -225px 0px 225px;
+  }
+  [class*="cagediv"] {
+    margin: 50px -400px 0px 0px;
+     }
+    
+      [class*="homepgdiv"]{
+       margin: -480px 0px 0px 0px;
+     } 
+    #prmpt1txt {
+      font-size: 3em;
+      margin: 40px 0px 0px 50px;
+    
+    }
+     
+    #prmpt2txt {
+      font-size: 8em;
+      margin: 40px 0px 0px 70px;
+    
+    }
+    
+    #signupbtn, #loginbtn {
+      margin: 10px -50px 0px 200px;
+    }
+
+
+  nav {
+   color: red;
+   display: flex;
+   flex-direction: column;
+   margin: 0px -70px 25px 150px;
+
+ }
+ [class*="dashdiv"]{
+   margin: 100px -300px 0px 90px;
+ }
+
+ [id*="ufctxt"] {
+   margin: 0px -400px 0px 45px;
+
+ }
+
+ [class*="pastmaindiv"] {
+   margin: 0px -300px 0px 90px;
+
+ }
+
+ #statstxt {
+   margin: 0px -100px 25px 300px;
+
+ }
+
+ div > Table{
+   margin: 0px 500px 0px 60px;
+}
+
+#logoutbtn {
+ background-color: rgb(4, 0, 255);
+ margin: 0px -100px 0px 120px;
+}
+
+ [class*="biodiv"] {
+   margin: 0px -250px 25px 5px;
+
+ }
+
+ #biotxt {
+  margin: 0px -150px 25px 5px;
+
+ }
+
+ [class*="biotxt"] {
+   display: inline-block;
+   text-align: none;
+
+   margin: 0px -60px 25px 80px;
+
+ }
+
+
+
+ [class*="watchbio"] {
+   margin: 0px -450px 25px 2px;
+
+ }
+
+ #imgbio {
+  margin: 0px -250px 25px -100px;
+
+ }
+
+ #namebio {
+  margin: 0px -250px 5px -100px;
+
+ }
+
+ [class*="carousel-caption"] {
+   margin: 300px -350px 0px 0px;
+
+ }
+
+ #originaltxt {
+   margin: -100px 0px 100px 0px;
+ }
+
+ [class*="watchbtns"] {
+  margin: -50px -70px 0px 0px;
+
+ }
+
 
 }

@@ -21,9 +21,10 @@ const Watch = (props) => {
             <div class="carousel-caption">
               <h1 id="originaltxt">UFC FIGHT PASS</h1>
               <h3 id="originaltxt">Originals, UFC library & More</h3>
-            
+            <div className="watchbtns"> 
             <Button href = "https://ufcfightpass.com/signup"variant="danger" size ="lg">Subscribe</Button>{' '}
             <Button href = "https://ufcfightpass.com/login"variant="danger" size ="lg">Login</Button>{' '}
+            </div>
             </div>
          </div>
       
