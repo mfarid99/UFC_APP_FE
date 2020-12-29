@@ -1,4 +1,4 @@
-Live: https://5fe9056ffc8dff00085105b4--elastic-poincare-6eb85f.netlify.app/
+Live: https://elastic-poincare-6eb85f.netlify.app/
 
 For the front end, I created a page for every function in the browser such as dashboard, stats, watch, past fights and bio. 
 
